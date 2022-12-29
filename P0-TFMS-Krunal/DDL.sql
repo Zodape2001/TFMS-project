@@ -64,4 +64,7 @@ feedback_question_text text,
 FOREIGN KEY (feedback_trainer_id) REFERENCES trainer_details(trainer_id),
 FOREIGN KEY (feedback_trainee_id) REFERENCES trainee_details(trainee_id),
 FOREIGN KEY (feedback_question_id) REFERENCES question_details(question_id)
-)
+);
+
+ALTER TABLE feedback
+ADD COLUMN rating VARCHAR(10);

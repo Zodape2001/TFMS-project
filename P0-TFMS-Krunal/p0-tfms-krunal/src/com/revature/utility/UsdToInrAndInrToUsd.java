@@ -2,7 +2,7 @@ package com.revature.utility;
 
 import java.util.Scanner;
 
-public class UsdToInr {
+public class UsdToInrAndInrToUsd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

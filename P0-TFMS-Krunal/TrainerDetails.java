@@ -3,7 +3,7 @@ package com.revature.model;
 public class TrainerDetails {
 	private int trainerId;
 	private String trainerName;
-	enum Size { 
+	enum track { 
 		Java, Dotnet, Mainframe, Testing 
 		}	
 	private String qualification;

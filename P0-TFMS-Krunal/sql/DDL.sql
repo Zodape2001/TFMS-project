@@ -68,3 +68,18 @@ FOREIGN KEY (feedback_question_id) REFERENCES question_details(question_id)
 
 ALTER TABLE feedback
 ADD COLUMN rating VARCHAR(10);
+
+-- Changed entity and atribute name of trainer table 
+ALTER TABLE trainer_details RENAME trainer;
+ALTER TABLE trainer RENAME COLUMN track TO trainer_track;
+ALTER TABLE trainer RENAME COLUMN qualification TO trainer_qual;
+ALTER TABLE trainer RENAME COLUMN experience TO trainer_exp;
+ALTER TABLE trainer DROP COLUMN phone;
+ALTER TABLE trainer DROP COLUMN email;
+
+-- Changed entity and atribute name of trainee table 
+ALTER TABLE trainee_details RENAME trainee;
+ALTER TABLE trainee RENAME COLUMN trainee_qualification TO trainee_qual;
+ALTER TABLE trainee RENAME COLUMN trainee_experience TO trainee_exp;
+ALTER TABLE trainee DROP COLUMN trainee_phone;
+ALTER TABLE trainee DROP COLUMN trainee_email;

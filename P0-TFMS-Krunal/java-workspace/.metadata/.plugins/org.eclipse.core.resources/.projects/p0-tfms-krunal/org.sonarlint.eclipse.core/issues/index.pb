@@ -5,3 +5,5 @@ S
 #src/com/revature/model/Trainer.java,8\9\894c2b1318ea9aa6fe10cc3849915484bbb10822
 W
 'src/com/revature/model/Application.java,d\c\dca3feee738b6c51402e326fa961fafb355476a5
+Z
+*src/com/revature/model/TrainerDetails.java,5\0\50abb474d88a8212acad91693d46df6b638bfdc4

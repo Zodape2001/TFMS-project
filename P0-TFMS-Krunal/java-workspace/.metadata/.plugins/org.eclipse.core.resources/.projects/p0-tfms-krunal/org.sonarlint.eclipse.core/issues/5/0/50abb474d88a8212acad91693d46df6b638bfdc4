@@ -1,0 +1,71 @@
+
+i
+java:S11355"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ã ÌÄÚ0H¶RINFOZ
+CODE_SMELL
+n
+java:S1854"6Remove this useless assignment to local variable "id".(è„Ã±üÿÿÿÿ8ÛÏÅÚ0HúRMAJORZ
+CODE_SMELL
+i
+java:S1135)"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ã ÌÄÚ0H´RINFOZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Ú¸èª8øÉøÄÚ0HæRMAJORZ
+CODE_SMELL
+v
+java:S1610">Convert the abstract class "TrainerDetails" into an interface.(ĞŞ±ûÿÿÿÿ8Ã ÌÄÚ0H³RMINORZ
+CODE_SMELL
+i
+java:S1135/"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ã ÌÄÚ0H·RINFOZ
+CODE_SMELL
+a
+java:S1481")Remove this unused "name" local variable.(ä‹Å üÿÿÿÿ8ÛÏÅÚ0HüRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(§à—¼ÿÿÿÿÿ8ÛÏÅÚ0HûRMAJORZ
+CODE_SMELL
+q
+java:S1854$"9Remove this useless assignment to local variable "email".(ûĞÍ×ûÿÿÿÿ8©­ÙÅÚ0H‰RMAJORZ
+CODE_SMELL
+l
+java:S1854""9Remove this useless assignment to local variable "phone".(Ğ©·ì8©­ÙÅÚ0HŠRMAJORZ
+CODE_SMELL
+v
+java:S1854 ">Remove this useless assignment to local variable "experience".(É¶œøÿÿÿÿ8©­ÙÅÚ0H‹RMAJORZ
+CODE_SMELL
+y
+java:S1854"ARemove this useless assignment to local variable "qualification".(Ï—Œ¢ûÿÿÿÿ8©­ÙÅÚ0HŒRMAJORZ
+CODE_SMELL
+q
+java:S1854"9Remove this useless assignment to local variable "track".(öêµ‡şÿÿÿÿ8©­ÙÅÚ0HRMAJORZ
+CODE_SMELL
+p
+java:S1854"8Remove this useless assignment to local variable "name".(ä‹Å üÿÿÿÿ8©­ÙÅÚ0HRMAJORZ
+CODE_SMELL
+_
+java:S1481"'Remove this unused "id" local variable.(è„Ã±üÿÿÿÿ8©­ÙÅÚ0HRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(…¹Â8©­ÙÅÚ0H‘RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(àÍ¥Áüÿÿÿÿ8©­ÙÅÚ0H’RMAJORZ
+CODE_SMELL
+b
+java:S1481"*Remove this unused "track" local variable.(öêµ‡şÿÿÿÿ8©­ÙÅÚ0H“RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(§ÂŠºüÿÿÿÿ8©­ÙÅÚ0H•RMAJORZ
+CODE_SMELL
+j
+java:S1481"2Remove this unused "qualification" local variable.(Ï—Œ¢ûÿÿÿÿ8©­ÙÅÚ0H–RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(¼ıù§úÿÿÿÿ8©­ÙÅÚ0H˜RMAJORZ
+CODE_SMELL
+g
+java:S1481 "/Remove this unused "experience" local variable.(É¶œøÿÿÿÿ8©­ÙÅÚ0H™RMINORZ
+CODE_SMELL
+p	java:S106!"9Replace this use of System.out or System.err by a logger.(–Ş– şÿÿÿÿ8©­ÙÅÚ0H›RMAJORZ
+CODE_SMELL
+]
+java:S1481""*Remove this unused "phone" local variable.(Ğ©·ì8©­ÙÅÚ0HœRMINORZ
+CODE_SMELL
+p	java:S106#"9Replace this use of System.out or System.err by a logger.(ß»Å‚úÿÿÿÿ8©­ÙÅÚ0HRMAJORZ
+CODE_SMELL
+b
+java:S1481$"*Remove this unused "email" local variable.(ûĞÍ×ûÿÿÿÿ8©­ÙÅÚ0HŸRMINORZ
+CODE_SMELL

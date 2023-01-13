@@ -1,27 +1,17 @@
 
-p	java:S106$"9Replace this use of System.out or System.err by a logger.(İëëÓşÿÿÿÿ8îÕÜÙ0HRMAJORZ
+j
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ƒ¡øÄÚ0HÛRMINORZ
 CODE_SMELL
-p	java:S106!"9Replace this use of System.out or System.err by a logger.(íÃ½íüÿÿÿÿ8®ÇÊÜÙ0HRMAJORZ
-CODE_SMELL
-†
-java:S1192"KDefine a constant instead of duplicating this literal "1234567890" 4 times.(şà´Æüÿÿÿÿ8ÒÒïÛÙ0HRCRITICALZ
-CODE_SMELL
-k	java:S106"9Replace this use of System.out or System.err by a logger.(·ÕãÕ8¯ÖÜÙ0H•RMAJORZ
+d
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8ƒ¡øÄÚ0HİRMINORZ
 CODE_SMELL
 i
-java:S1135+"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8“è¸ÜÙ0H–RINFOZ
+java:S1135,"2Complete the task associated to this TODO comment.(àøö×ûÿÿÿÿ8“è¸ÜÙ0HªRINFOZ
 CODE_SMELL
-b
-java:S1135
-"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH—RINFOZ
+n	java:S125"<This block of commented-out lines of code should be removed.(ó®Æ‚8ƒ¡øÄÚ0HÀRMAJORZ
 CODE_SMELL
-€	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†òÍ½8¤ÒˆİÙ0H˜RMINORZ
+c
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ƒ¡øÄÚ0HÙRMINORZ
 CODE_SMELL
-`
-java:S1604'"(Make this anonymous inner class a lambda(Î³í¶ıÿÿÿÿ8‘è¸ÜÙ0H™RMAJORZ
-CODE_SMELL
-p	java:S1060"9Replace this use of System.out or System.err by a logger.(Ó¾…³ıÿÿÿÿ8îÕÜÙ0HšRMAJORZ
-CODE_SMELL
-Œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(²°‚£8îÕÜÙ0H›RMINORZ
+s	java:S125"<This block of commented-out lines of code should be removed.(À‡‡Ûÿÿÿÿÿ8ƒ¡øÄÚ0HÁRMAJORZ
 CODE_SMELL

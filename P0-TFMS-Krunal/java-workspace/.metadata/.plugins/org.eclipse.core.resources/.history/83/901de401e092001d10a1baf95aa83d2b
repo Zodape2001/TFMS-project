@@ -1,0 +1,44 @@
+package com.revature.model;
+
+import java.util.Scanner;
+
+public abstract class TrainerDetails {
+
+	public abstract void addDetails();
+	public abstract void listTrainerDetails();
+	public abstract void deleteTrainerDetails();
+	public abstract void updateTrainerDetails();
+	
+}
+
+
+
+class ChildTrainerDetails extends TrainerDetails
+{
+	Scanner sc = new Scanner(System.in);
+
+	@Override
+	public void addDetails() {
+		System.out.println("Press 1: Add details");
+		Trainer t1 = new Trainer();
+		
+	}
+
+	@Override
+	public void listTrainerDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteTrainerDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateTrainerDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+	}

@@ -9,12 +9,12 @@ public class Trainer {
 	private String trainerPhone;
 	private String trainerEmail;
 	
-	public Trainer(String trainerId, String trainerName, String trainerTrack, String trainerQualification,
+	public Trainer(String trainerId, String trainerName, String trainerTrck, String trainerQualification,
 			int trainerExperience, String trainerPhone, String trainerEmail) {
 		super();
 		this.trainerId = trainerId;
 		this.trainerName = trainerName;
-		this.trainerTrack = trainerTrack;
+		this.trainerTrack = trainerTrck;
 		this.trainerQualification = trainerQualification;
 		this.trainerExperience = trainerExperience;
 		this.trainerPhone = trainerPhone;
@@ -79,23 +79,23 @@ public class Trainer {
 
 	@Override
 	public String toString() {
-		return "Trainer [trainerId=" + trainerId + ", trainerName=" + trainerName + ", trainerTrack=" + trainerTrack
+		return "Trainer [trainerId=" + trainerId + ", trainerName=" + trainerName + ", trainerTrck=" + trainerTrack
 				+ ", trainerQualification=" + trainerQualification + ", trainerExperience=" + trainerExperience
 				+ ", trainerPhone=" + trainerPhone + ", trainerEmail=" + trainerEmail + "]";
 	}
 	
-//	public void display()
-//	{
-//		System.out.println("=================================================");
-//		System.out.print("Trainer Id: "+getTrainerId());
-//		System.out.print("Trainer Name: "+getTrainerName());
-//		System.out.print("Trainer Track: "+getTrainerTrack());
-//		System.out.print("Trainer Qualification: "+getTrainerQualification());
-//		System.out.print("Trainer Experience: "+getTrainerExperience());
-//		System.out.print("Trainer Phone: "+getTrainerPhone());
-//		System.out.print("Trainer Email: "+getTrainerEmail());
-//		System.out.println("=================================================");
-//	}
+	public void display()
+	{
+		System.out.println("=================================================");
+		System.out.print("Trainer Id: "+getTrainerId());
+		System.out.print("Trainer Name: "+getTrainerName());
+		System.out.print("Trainer Track: "+getTrainerTrack());
+		System.out.print("Trainer Qualification: "+getTrainerQualification());
+		System.out.print("Trainer Experience: "+getTrainerExperience());
+		System.out.print("Trainer Phone: "+getTrainerPhone());
+		System.out.print("Trainer Email: "+getTrainerEmail());
+		System.out.println("=================================================");
+	}
 	
 	
 }

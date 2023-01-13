@@ -1,0 +1,12 @@
+package com.revature.utility;
+
+public class CapEachWord {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "krunal is a good boy";
+		String[] str2 = str.split(str);
+		System.out.println(str2[0]);
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.revature.utility;
+
+public class SupperKeyWord {
+
+}
+
+class A
+{
+	int x = 10;
+}
+class B extends A
+{
+	int x = 20;
+	public void m1()
+	{
+		System.out.println(this.x);
+		System.out.println(super.x);
+	}
+}

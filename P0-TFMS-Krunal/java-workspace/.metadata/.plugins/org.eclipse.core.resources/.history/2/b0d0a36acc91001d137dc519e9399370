@@ -1,0 +1,13 @@
+package com.revature.utility;
+
+public class string {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1 = "krunal";
+		String s2 = " is a good boy";
+		System.out.println(s2.equals(s1));
+
+	}
+
+}

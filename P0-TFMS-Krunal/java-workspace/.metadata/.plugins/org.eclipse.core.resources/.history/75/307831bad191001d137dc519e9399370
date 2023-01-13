@@ -1,0 +1,15 @@
+package com.revature.utility;
+
+public class CapEachWord {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "krunal is a good boy";
+		String[] result = result = str.split(" ");
+		for(int i=0; i<result.length-1; i++) {
+			
+			System.out.print(result[i].toUpperCase()+" ");
+		}
+	}
+
+}

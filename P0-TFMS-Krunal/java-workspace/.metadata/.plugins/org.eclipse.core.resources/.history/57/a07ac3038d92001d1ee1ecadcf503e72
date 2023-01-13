@@ -1,0 +1,20 @@
+package com.revature.utility;
+
+public class MethodOverLoading {
+	
+	public int m1(int a, int b)
+	{
+		return a+b;
+	}
+	public int m2(int a, int b, int c)
+	{
+		return a+b+c;
+	}
+
+	public static void main(String[] args) {
+		MethodOverLoading m = new MethodOverLoading();
+		System.out.println(m.m1(10, 20));
+		System.out.println(m.m2(10, 20, 30));
+	}
+
+}

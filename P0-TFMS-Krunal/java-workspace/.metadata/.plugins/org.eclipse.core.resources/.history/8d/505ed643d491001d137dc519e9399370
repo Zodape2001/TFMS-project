@@ -1,0 +1,25 @@
+package com.revature.utility;
+
+public class CapEachWord {
+	
+	int age;
+	String name;
+	
+	public CapEachWord(int age, String name)
+	{
+		this.age = age;
+		this.name = name;
+	}
+	
+	public void display()
+	{
+		System.out.println("Age of "+name+" is "+age);
+	}
+
+	public static void main(String[] args) {
+		CapEachWord cew = new CapEachWord(18, "krunal");
+		cew.display();
+
+	}
+
+}

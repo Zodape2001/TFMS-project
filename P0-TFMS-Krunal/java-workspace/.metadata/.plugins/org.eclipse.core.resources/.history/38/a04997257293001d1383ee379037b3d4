@@ -1,0 +1,75 @@
+package com.revature.model;
+import com.revature.constant.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public abstract class TrainerDetails {
+
+	public abstract void addDetails();
+	public abstract void showTrainerDetails();
+	public abstract void deleteTrainerDetails();
+	public abstract void editTrainerDetails();
+	
+}
+
+
+
+class ChildTrainerDetails extends TrainerDetails
+{
+	Constant constant = new Constant();
+	Scanner sc = new Scanner(System.in);
+	int condition;
+
+	@Override
+	public void addDetails() {
+		
+//		List<Trainer> TrainerDetailsStor = new ArrayList<Trainer>();
+//		System.out.println("Enter Detals: ");
+		ArrayList<Trainer> trainerList = new ArrayList<Trainer>();
+		do {
+			System.out.print(constant.ENTERTRAINERID);
+			String id = sc.next();
+			System.out.print(constant.ENTERTRAINERNAME);
+			String name = sc.next();
+			System.out.print(constant.ENTERTRAINERTRACK);
+			String track = sc.next();
+			System.out.print(constant.ENTERTRAINERQUALIFICATION);
+			String qualification = sc.next();
+			System.out.print(constant.ENTERTRAINEREXPERIENCE);
+			int experience = sc.nextInt();
+			System.out.print(constant.ENTERTRAINERPHONUMBER);
+			String phone = sc.next();
+			System.out.print(constant.ENTERTRAINEREMAIL);
+			String email = sc.next();
+			
+			Trainer trainerDetails = new Trainer(id, name, track, qualification, experience, phone, email);
+//			ArrayList<Trainer> trainerList = new ArrayList<Trainer>();
+			trainerList.add(trainerDetails);
+			System.out.println(constant.CHECKCONDITION);
+			condition = sc.nextInt();
+			
+		}while(condition==1);
+		
+//		for (Trainer a : trainerList) {
+//			System.out.println(a.toString());
+//		}
+	}
+
+	@Override
+	public void showTrainerDetails() {
+		System.out.println("calling showTrainerDetails");
+	}
+
+	@Override
+	public void deleteTrainerDetails() {
+		System.out.println("calling deleteTrainerDetails");
+	}
+
+	@Override
+	public void editTrainerDetails() {
+		System.out.println("calling editTrainerDetails");
+	}
+	
+}

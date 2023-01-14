@@ -1,0 +1,16 @@
+package com.revature.model;
+import com.revature.constant.*;
+//import java.util.Scanner;
+
+public class Menu {
+//	Scanner sc = new Scanner(System.in);
+	Constant constant = new Constant();
+	
+	public void menuList() {
+		System.out.println(constant.APPLICATIONSHMENU);
+		System.out.println(constant.APPLICATIONADDDETAILS);
+		System.out.println(constant.APPLICATIONTRAINERDETAILS);
+		System.out.println(constant.APPLICATIONDELETETRAINERDETAILS);
+		System.out.println(constant.APPLICATIONUPDATETRAINERDETAILS);
+	}
+}

@@ -1,0 +1,20 @@
+package com.revature.constant;
+
+public class Constant {
+	
+//	This constants are used in Abstract class (model/TrainerDetails)
+	public String ENTERTRAINERID = "Enter Your Id: ";
+	public String ENTERTRAINERNAME = "Enter your Name: ";
+	public String ENTERTRAINERTRACK = "Enter your Track: ";
+	public String ENTERTRAINERQUALIFICATION = "Enter your Qualification: ";
+	public String ENTERTRAINEREXPERIENCE = "Enter your Experience: ";
+	public String ENTERTRAINERPHONUMBER = "Enter your Phone Number: ";
+	public String ENTERTRAINEREMAIL = "Enter your Email: ";
+	
+//	This constants are used in Main application (model/Application)
+	public String APPLICATIONMENU = "************* MENU *************\n";
+	public String APPLICATIOADDDETAILS = "************* ADD DETAILS *************";
+	public String APPLICATIONTRAINERDETAILS = "************* TRAINER DETAILS *************";
+	public String APPLICATIONDELETETRAINERDETAILS = "************* DELETE TRAINER DETAILS *************";
+	public String APPLICATIONUPDATETRAINERDETAILS = "************* UPDATE TRAINER DETAILS *************";
+}

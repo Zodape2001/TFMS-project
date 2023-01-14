@@ -1,0 +1,8 @@
+package com.revature.constant;
+
+public class Constant {
+	public String ENTERTRAINERID = "Enter Your Id: ";
+	public String ENTERTRAINERNAME = "Enter your Name: ";
+	public String ENTERTRAINERTRACK = "Enter your Track: ";
+	public String ENTERTRAINERQUALIFICATION = "Enter your Qualification: ";
+}

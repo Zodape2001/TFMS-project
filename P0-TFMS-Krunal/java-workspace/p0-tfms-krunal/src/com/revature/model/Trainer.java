@@ -83,19 +83,5 @@ public class Trainer {
 				+ ", trainerQualification=" + trainerQualification + ", trainerExperience=" + trainerExperience
 				+ ", trainerPhone=" + trainerPhone + ", trainerEmail=" + trainerEmail + "]";
 	}
-	
-//	public void display()
-//	{
-//		System.out.println("=================================================");
-//		System.out.print("Trainer Id: "+getTrainerId());
-//		System.out.print("Trainer Name: "+getTrainerName());
-//		System.out.print("Trainer Track: "+getTrainerTrack());
-//		System.out.print("Trainer Qualification: "+getTrainerQualification());
-//		System.out.print("Trainer Experience: "+getTrainerExperience());
-//		System.out.print("Trainer Phone: "+getTrainerPhone());
-//		System.out.print("Trainer Email: "+getTrainerEmail());
-//		System.out.println("=================================================");
-//	}
-	
-	
+		
 }

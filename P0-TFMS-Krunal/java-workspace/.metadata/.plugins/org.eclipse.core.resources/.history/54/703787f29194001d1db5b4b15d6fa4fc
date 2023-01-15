@@ -1,7 +1,7 @@
 package com.revature.model;
 
 public class Trainer {
-	private int trainerId;
+	private String trainerId;
 	private String trainerName;
 	private String trainerTrack;
 	private String trainerQualification;
@@ -9,7 +9,7 @@ public class Trainer {
 	private String trainerPhone;
 	private String trainerEmail;
 	
-	public Trainer(int trainerId, String trainerName, String trainerTrack, String trainerQualification,
+	public Trainer(String trainerId, String trainerName, String trainerTrack, String trainerQualification,
 			int trainerExperience, String trainerPhone, String trainerEmail) {
 		super();
 		this.trainerId = trainerId;
@@ -21,11 +21,11 @@ public class Trainer {
 		this.trainerEmail = trainerEmail;
 	}
 
-	public int getTrainerId() {
+	public String getTrainerId() {
 		return trainerId;
 	}
 
-	public void setTrainerId(int trainerId) {
+	public void setTrainerId(String trainerId) {
 		this.trainerId = trainerId;
 	}
 
@@ -79,9 +79,9 @@ public class Trainer {
 
 	@Override
 	public String toString() {
-		return "Trainer Id=" + trainerId + ", Trainer Name=" + trainerName + ", Trainer Track=" + trainerTrack
-				+ ", Trainer Qualification=" + trainerQualification + ", Trainer Experience=" + trainerExperience
-				+ ", Trainer Phone=" + trainerPhone + ", Trainer Email=" + trainerEmail + "]";
+		return "Trainer [trainerId=" + trainerId + ", trainerName=" + trainerName + ", trainerTrack=" + trainerTrack
+				+ ", trainerQualification=" + trainerQualification + ", trainerExperience=" + trainerExperience
+				+ ", trainerPhone=" + trainerPhone + ", trainerEmail=" + trainerEmail + "]";
 	}
 		
 }

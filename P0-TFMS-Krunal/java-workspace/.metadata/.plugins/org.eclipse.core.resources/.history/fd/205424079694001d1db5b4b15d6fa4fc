@@ -6,11 +6,11 @@ public class Trainer {
 	private String trainerTrack;
 	private String trainerQualification;
 	private int trainerExperience;
-	private String trainerPhone;
+	private long trainerPhone;
 	private String trainerEmail;
 	
 	public Trainer(int trainerId, String trainerName, String trainerTrack, String trainerQualification,
-			int trainerExperience, String trainerPhone, String trainerEmail) {
+			int trainerExperience, long trainerPhone, String trainerEmail) {
 		super();
 		this.trainerId = trainerId;
 		this.trainerName = trainerName;
@@ -61,11 +61,11 @@ public class Trainer {
 		this.trainerExperience = trainerExperience;
 	}
 
-	public String getTrainerPhone() {
+	public long getTrainerPhone() {
 		return trainerPhone;
 	}
 
-	public void setTrainerPhone(String trainerPhone) {
+	public void setTrainerPhone(long trainerPhone) {
 		this.trainerPhone = trainerPhone;
 	}
 

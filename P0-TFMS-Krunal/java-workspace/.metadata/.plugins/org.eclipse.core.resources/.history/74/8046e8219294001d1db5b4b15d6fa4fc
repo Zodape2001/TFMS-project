@@ -40,7 +40,7 @@ class ChildTrainerDetails implements TrainerDetails {
 		do {
 			
 			System.out.print(constant.ENTERTRAINERID);	 
-			int id = scInt.nextInt();
+			String id = scString.nextLine();
 
 			System.out.print(constant.ENTERTRAINERNAME);
 			String name = scString.nextLine();
@@ -86,15 +86,8 @@ class ChildTrainerDetails implements TrainerDetails {
 			condition = scInt.nextInt();
 
 		} while (condition == 1);
-		
-		System.out.println("Press 1: View Menu\nPress 2: Exit");
-		int press = scInt.nextInt();
-		if(press==1) {
-			menu.menuList();
-		}
-		else {
-			System.out.println("********* Thank You *********");
-		}
+
+		menu.menuList();	
 	}
 
 	@Override
@@ -104,15 +97,7 @@ class ChildTrainerDetails implements TrainerDetails {
 			System.out.println(a.toString());
 		}
 		System.out.println();
-		
-		System.out.println("Press 1: View Menu\nPress 2: Exit");
-		int press = scInt.nextInt();
-		if(press==1) {
-			menu.menuList();
-		}
-		else {
-			System.out.println("********* Thank You *********");
-		}	
+		menu.menuList();	
 	}
 
 	@Override
@@ -120,87 +105,19 @@ class ChildTrainerDetails implements TrainerDetails {
 		System.out.println("calling deleteTrainerDetails");
 		for (Trainer a : trainerList) {
 			System.out.println("Enter Trainer Id to delete: ");
-			int id = scInt.nextInt();
-			if(id==a.getTrainerId()) {
+			String id = scString.nextLine();
+			if(id.equals(a.getTrainerId())) {
 				trainerList.remove(a);
 			}
 			System.out.println("Trainer details whose id is "+ a.getTrainerId()+" is deleted successfull !");
 			break;
 		}
-		
-		System.out.println("Press 1: View Menu\nPress 2: Exit");
-		int press = scInt.nextInt();
-		if(press==1) {
-			menu.menuList();
-		}
-		else {
-			System.out.println("********* Thank You *********");
-		}
+		menu.menuList();
 	}
 
 	@Override
 	public void editTrainerDetails() {
 		System.out.println("calling editTrainerDetails");
-		for (Trainer a : trainerList) {
-			System.out.println("Enter Trainer Id to update: ");
-			int id = scInt.nextInt();
-			if(id==a.getTrainerId()) {
-				System.out.println("Which field you want to update \nPress 1:Update Name\nPress 2:Update Track\nPress 3:Update Qualification\nPress 4:Update Experience\nPress 5:Update Phone\nPress 6:Update Email");
-				int press = scInt.nextInt();
-				
-				switch(press)
-				{
-					case 1:
-						System.out.println("Enter Trainer's New Name: ");
-						String name = scString.nextLine();
-						a.setTrainerName(name);
-						break;
-					case 2:
-						System.out.println("Enter Trainer's New Track: ");
-						String track = scString.nextLine();
-						a.setTrainerTrack(track);
-						break;
-					case 3:
-						System.out.println("Enter Trainer's New Qualification: ");
-						String qualification = scString.nextLine();
-						a.setTrainerQualification(qualification);
-						break;
-					case 4:
-						System.out.println("Enter Trainer's New Experience: ");
-						int experience = scInt.nextInt();
-						a.setTrainerExperience(experience);
-						break;
-					case 5:
-						System.out.println("Enter Trainer's New Phone: ");
-						String phone = scString.nextLine();
-						a.setTrainerPhone(phone);
-						break;
-					case 6:
-						System.out.println("Enter Trainer's New Email: ");
-						String email = scString.nextLine();
-						a.setTrainerPhone(email);
-						break;
-					default:
-						System.out.println(constant.DEFAULTVALUE);
-				}
-				
-//				System.out.println("Enter Trainer New Name: ");
-//				String name = scString.nextLine();
-//				a.setTrainerName(name);
-			}
-			System.out.println("Trainer details whose id is "+ a.getTrainerId()+" is updated successfull !");
-			break;
-		}
-
-		System.out.println();
-		System.out.println("Press 1: View Menu\nPress 2: Exit");
-		int press = scInt.nextInt();
-		if(press==1) {
-			menu.menuList();
-		}
-		else {
-			System.out.println("********* Thank You *********");
-		}
 	}
 
 }

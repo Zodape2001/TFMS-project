@@ -1,93 +1,93 @@
 
-œ	java:S116"jRename this field "APPLICATIONDELETETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÒ¿8Ùê¶ßÚ0HƒRMINORZ
-CODE_SMELL
-”
-java:S1104"\Make ENTERTRAINERNAME a static final constant or non-public and provide accessors if needed.(½†Ö¤ÿÿÿÿÿ8ÃªŞÚ0HñRMINORZ
-CODE_SMELL
-
-java:S1104	"eMake ENTERTRAINERQUALIFICATION a static final constant or non-public and provide accessors if needed.(ñªºüÿÿÿÿ8˜Ş°ŞÚ0HòRMINORZ
-CODE_SMELL
-™
-java:S1104"fMake SWITCHUPDATETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(©úùì8ğê²ßÚ0HRMINORZ
-CODE_SMELL
-¡	java:S116"jRename this field "APPLICATIONUPDATETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹ôØşÿÿÿÿ8Ùê¶ßÚ0HŠRMINORZ
-CODE_SMELL
-œ	java:S116"eRename this field "SWITCHDELETETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¤·¨üÿÿÿÿ8ğê²ßÚ0HôRMINORZ
-CODE_SMELL
-˜	java:S116
-"aRename this field "ENTERTRAINEREXPERIENCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡½İîúÿÿÿÿ8©Ï¶ŞÚ0HöRMINORZ
-CODE_SMELL
 
-java:S1104"ZMake CHECKCONDITION a static final constant or non-public and provide accessors if needed.(ŒÕšª8¬çéâÚ0H€RMINORZ
-CODE_SMELL
-”
-java:S1104"aMake ENTERTRAINERPHONUMBER a static final constant or non-public and provide accessors if needed.(óÜšì8é»ŞÚ0H…RMINORZ
+java:S1104"ZMake CHECKCONDITION a static final constant or non-public and provide accessors if needed.(ŒÕšª8¬çéâÚ0HòRMINORZ
 CODE_SMELL
 ’
-java:S1104"ZMake ENTERTRAINERID a static final constant or non-public and provide accessors if needed.(Ì®­ùÿÿÿÿ8ÃªŞÚ0H÷RMINORZ
+java:S1104"ZMake ENTERTRAINERID a static final constant or non-public and provide accessors if needed.(Ì®­ùÿÿÿÿ8ÃªŞÚ0HûRMINORZ
 CODE_SMELL
-
-java:S1104"fMake SWITCHDELETETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(Ñ¤·¨üÿÿÿÿ8ğê²ßÚ0HŒRMINORZ
+’	java:S116"`Rename this field "ENTERTRAINERPHONUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÜšì8é»ŞÚ0HæRMINORZ
 CODE_SMELL
-	java:S116"YRename this field "ENTERTRAINERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì®­ùÿÿÿÿ8ÃªŞÚ0H’RMINORZ
+¡	java:S116"jRename this field "APPLICATIONUPDATETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‹ôØşÿÿÿÿ8Ùê¶ßÚ0HáRMINORZ
 CODE_SMELL
-	java:S116"[Rename this field "SWITCHADDDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈğÏ÷8ğê²ßÚ0HğRMINORZ
+•
+java:S1104"]Make ENTERTRAINEREMAIL a static final constant or non-public and provide accessors if needed.(ÁÊ²şÿÿÿÿ8±ÀŞÚ0HãRMINORZ
 CODE_SMELL
-
-java:S1104"kMake APPLICATIONDELETETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(ËÒ¿8Ùê¶ßÚ0H‘RMINORZ
+˜	java:S116
+"aRename this field "ENTERTRAINEREXPERIENCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡½İîúÿÿÿÿ8©Ï¶ŞÚ0HğRMINORZ
 CODE_SMELL
-£
-java:S1104"kMake APPLICATIONUPDATETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(¹‹ôØşÿÿÿÿ8Ùê¶ßÚ0H‹RMINORZ
+–	java:S116"dRename this field "APPLICATIONTRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÇÜÖ8Ùê¶ßÚ0HêRMINORZ
 CODE_SMELL
-
-java:S1104"XMake DEFAULTVALUE a static final constant or non-public and provide accessors if needed.(’ø¹‰ùÿÿÿÿ8ÈËÊßÚ0H‚RMINORZ
+’	java:S116"[Rename this field "ENTERTRAINERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½†Ö¤ÿÿÿÿÿ8ÃªŞÚ0H÷RMINORZ
 CODE_SMELL
-“	java:S116"\Rename this field "ENTERTRAINERTRACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñşñâùÿÿÿÿ8ÃªŞÚ0H†RMINORZ
+›	java:S116	"dRename this field "ENTERTRAINERQUALIFICATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñªºüÿÿÿÿ8˜Ş°ŞÚ0HöRMINORZ
+CODE_SMELL
+œ	java:S116"eRename this field "SWITCHDELETETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¤·¨üÿÿÿÿ8ğê²ßÚ0HÜRMINORZ
+CODE_SMELL
+—	java:S116"eRename this field "SWITCHUPDATETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©úùì8ğê²ßÚ0HôRMINORZ
+CODE_SMELL
+œ	java:S116"jRename this field "APPLICATIONDELETETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÒ¿8Ùê¶ßÚ0HõRMINORZ
+CODE_SMELL
+“	java:S116"\Rename this field "ENTERTRAINEREMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÊ²şÿÿÿÿ8±ÀŞÚ0HøRMINORZ
 CODE_SMELL
 š
 java:S1104
-"bMake ENTERTRAINEREXPERIENCE a static final constant or non-public and provide accessors if needed.(¡½İîúÿÿÿÿ8©Ï¶ŞÚ0HRMINORZ
+"bMake ENTERTRAINEREXPERIENCE a static final constant or non-public and provide accessors if needed.(¡½İîúÿÿÿÿ8©Ï¶ŞÚ0HìRMINORZ
 CODE_SMELL
-’	java:S116"`Rename this field "ENTERTRAINERPHONUMBER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÜšì8é»ŞÚ0HùRMINORZ
+
+java:S1104	"eMake ENTERTRAINERQUALIFICATION a static final constant or non-public and provide accessors if needed.(ñªºüÿÿÿÿ8˜Ş°ŞÚ0HñRMINORZ
 CODE_SMELL
-“	java:S116"\Rename this field "APPLICATIONSHMENU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¦¥úşÿÿÿÿ8 ¬¢ßÚ0H‰RMINORZ
-CODE_SMELL
-	java:S116"WRename this field "DEFAULTVALUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ø¹‰ùÿÿÿÿ8ÈËÊßÚ0HûRMINORZ
-CODE_SMELL
-–	java:S116"_Rename this field "SWITCHTRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–úöœøÿÿÿÿ8ğê²ßÚ0H„RMINORZ
-CODE_SMELL
-‹	java:S116"YRename this field "CHECKCONDITION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÕšª8¬çéâÚ0HşRMINORZ
+
+java:S1104"XMake DEFAULTVALUE a static final constant or non-public and provide accessors if needed.(’ø¹‰ùÿÿÿÿ8ÈËÊßÚ0HäRMINORZ
 CODE_SMELL
 •
-java:S1104"]Make ENTERTRAINEREMAIL a static final constant or non-public and provide accessors if needed.(ÁÊ²şÿÿÿÿ8±ÀŞÚ0H‡RMINORZ
+java:S1104"]Make ENTERTRAINERTRACK a static final constant or non-public and provide accessors if needed.(ÆôŒÇùÿÿÿÿ8ÃªŞÚ0HíRMINORZ
 CODE_SMELL
-“	java:S116"\Rename this field "ENTERTRAINEREMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÊ²şÿÿÿÿ8±ÀŞÚ0HRMINORZ
+“	java:S116"\Rename this field "APPLICATIONSHMENU" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¦¥úşÿÿÿÿ8 ¬¢ßÚ0HÚRMINORZ
 CODE_SMELL
-’	java:S116"[Rename this field "ENTERTRAINERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½†Ö¤ÿÿÿÿÿ8ÃªŞÚ0HïRMINORZ
+	java:S116"WRename this field "DEFAULTVALUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ø¹‰ùÿÿÿÿ8ÈËÊßÚ0HåRMINORZ
 CODE_SMELL
-›	java:S116	"dRename this field "ENTERTRAINERQUALIFICATION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñªºüÿÿÿÿ8˜Ş°ŞÚ0HøRMINORZ
-CODE_SMELL
-˜
-java:S1104"`Make SWITCHTRAINERDETAILS a static final constant or non-public and provide accessors if needed.(–úöœøÿÿÿÿ8ğê²ßÚ0HüRMINORZ
-CODE_SMELL
-—	java:S116"eRename this field "SWITCHUPDATETRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©úùì8ğê²ßÚ0HõRMINORZ
-CODE_SMELL
-•
-java:S1104"]Make ENTERTRAINERTRACK a static final constant or non-public and provide accessors if needed.(ñşñâùÿÿÿÿ8ÃªŞÚ0HÿRMINORZ
-CODE_SMELL
-
-java:S1104"\Make SWITCHADDDETAILS a static final constant or non-public and provide accessors if needed.(ÈğÏ÷8ğê²ßÚ0HóRMINORZ
-CODE_SMELL
-•
-java:S1104"]Make APPLICATIONSHMENU a static final constant or non-public and provide accessors if needed.( ¦¥úşÿÿÿÿ8 ¬¢ßÚ0HˆRMINORZ
-CODE_SMELL
-˜
-java:S1104"eMake APPLICATIONTRAINERDETAILS a static final constant or non-public and provide accessors if needed.(¨ÇÜÖ8Ùê¶ßÚ0HRMINORZ
+	java:S116"[Rename this field "SWITCHADDDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈğÏ÷8ğê²ßÚ0HéRMINORZ
 CODE_SMELL
 ”
-java:S1104"aMake APPLICATIONADDDETAILS a static final constant or non-public and provide accessors if needed.(ƒ‘‚Œ8Ùê¶ßÚ0HRMINORZ
+java:S1104"aMake ENTERTRAINERPHONUMBER a static final constant or non-public and provide accessors if needed.(óÜšì8é»ŞÚ0HùRMINORZ
 CODE_SMELL
-’	java:S116"`Rename this field "APPLICATIONADDDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ‘‚Œ8Ùê¶ßÚ0HıRMINORZ
+–	java:S116"_Rename this field "SWITCHTRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–úöœøÿÿÿÿ8ğê²ßÚ0HßRMINORZ
 CODE_SMELL
-–	java:S116"dRename this field "APPLICATIONTRAINERDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÇÜÖ8Ùê¶ßÚ0HúRMINORZ
+
+java:S1104"fMake SWITCHDELETETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(Ñ¤·¨üÿÿÿÿ8ğê²ßÚ0HŞRMINORZ
+CODE_SMELL
+
+java:S1104"kMake APPLICATIONDELETETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(ËÒ¿8Ùê¶ßÚ0HïRMINORZ
+CODE_SMELL
+•
+java:S1104"]Make APPLICATIONSHMENU a static final constant or non-public and provide accessors if needed.( ¦¥úşÿÿÿÿ8 ¬¢ßÚ0HçRMINORZ
+CODE_SMELL
+˜
+java:S1104"eMake APPLICATIONTRAINERDETAILS a static final constant or non-public and provide accessors if needed.(¨ÇÜÖ8Ùê¶ßÚ0HèRMINORZ
+CODE_SMELL
+˜
+java:S1104"`Make SWITCHTRAINERDETAILS a static final constant or non-public and provide accessors if needed.(–úöœøÿÿÿÿ8ğê²ßÚ0HüRMINORZ
+CODE_SMELL
+£
+java:S1104"kMake APPLICATIONUPDATETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(¹‹ôØşÿÿÿÿ8Ùê¶ßÚ0HàRMINORZ
+CODE_SMELL
+	java:S116"YRename this field "ENTERTRAINERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì®­ùÿÿÿÿ8ÃªŞÚ0HîRMINORZ
+CODE_SMELL
+“	java:S116"\Rename this field "ENTERTRAINERTRACK" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆôŒÇùÿÿÿÿ8ÃªŞÚ0HıRMINORZ
+CODE_SMELL
+‹	java:S116"YRename this field "CHECKCONDITION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÕšª8¬çéâÚ0HÛRMINORZ
+CODE_SMELL
+’	java:S116"`Rename this field "APPLICATIONADDDETAILS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ‘‚Œ8Ùê¶ßÚ0HóRMINORZ
+CODE_SMELL
+
+java:S1104"\Make SWITCHADDDETAILS a static final constant or non-public and provide accessors if needed.(ÈğÏ÷8ğê²ßÚ0HëRMINORZ
+CODE_SMELL
+”
+java:S1104"aMake APPLICATIONADDDETAILS a static final constant or non-public and provide accessors if needed.(ƒ‘‚Œ8Ùê¶ßÚ0HİRMINORZ
+CODE_SMELL
+”
+java:S1104"\Make ENTERTRAINERNAME a static final constant or non-public and provide accessors if needed.(½†Ö¤ÿÿÿÿÿ8ÃªŞÚ0HâRMINORZ
+CODE_SMELL
+™
+java:S1104"fMake SWITCHUPDATETRAINERDETAILS a static final constant or non-public and provide accessors if needed.(©úùì8ğê²ßÚ0HúRMINORZ
 CODE_SMELL

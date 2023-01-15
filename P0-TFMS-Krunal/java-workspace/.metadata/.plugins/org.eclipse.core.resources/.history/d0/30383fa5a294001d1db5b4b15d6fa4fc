@@ -148,41 +148,41 @@ class ChildTrainerDetails implements TrainerDetails {
 				System.out.println("Which field you want to update \nPress 1:Update Name\nPress 2:Update Track\nPress 3:Update Qualification\nPress 4:Update Experience\nPress 5:Update Phone\nPress 6:Update Email");
 				int press = scInt.nextInt();
 				
-				switch(press)
-				{
-					case 1:
-						System.out.println("Enter Trainer's New Name: ");
-						String name = scString.nextLine();
-						a.setTrainerName(name);
-						break;
-					case 2:
-						System.out.println("Enter Trainer's New Track: ");
-						String track = scString.nextLine();
-						a.setTrainerTrack(track);
-						break;
-					case 3:
-						System.out.println("Enter Trainer's New Qualification: ");
-						String qualification = scString.nextLine();
-						a.setTrainerQualification(qualification);
-						break;
-					case 4:
-						System.out.println("Enter Trainer's New Experience: ");
-						int experience = scInt.nextInt();
-						a.setTrainerExperience(experience);
-						break;
-					case 5:
-						System.out.println("Enter Trainer's New Phone: ");
-						String phone = scString.nextLine();
-						a.setTrainerPhone(phone);
-						break;
-					case 6:
-						System.out.println("Enter Trainer's New Email: ");
-						String email = scString.nextLine();
-						a.setTrainerPhone(email);
-						break;
-					default:
-						System.out.println(constant.DEFAULTVALUE);
-				}
+//				switch(press)
+//				{
+//					case 1:
+//						System.out.println("Enter Trainer's New Name: ");
+//						String name = scString.nextLine();
+//						a.setTrainerName(name);
+//						break;
+//					case 2:
+//						System.out.println("Enter Trainer's New Track: ");
+//						String track = scString.nextLine();
+//						a.setTrainerTrack(track);
+//						break;
+//					case 3:
+//						System.out.println("Enter Trainer's New Qualification: ");
+//						String qualification = scString.nextLine();
+//						a.setTrainerQualification(qualification);
+//						break;
+//					case 4:
+//						System.out.println("Enter Trainer's New Experience: ");
+//						int experience = scInt.nextInt();
+//						a.setTrainerExperience(experience);
+//						break;
+//					case 5:
+//						System.out.println("Enter Trainer's New Phone: ");
+//						String phone = scString.nextLine();
+//						a.setTrainerPhone(phone);
+//						break;
+//					case 6:
+//						System.out.println("Enter Trainer's New Email: ");
+//						String email = scString.nextLine();
+//						a.setTrainerPhone(email);
+//						break;
+//					default:
+//						System.out.println(constant.DEFAULTVALUE);
+//				}
 				
 //				System.out.println("Enter Trainer New Name: ");
 //				String name = scString.nextLine();

@@ -1,76 +1,40 @@
 
-k	java:S1067"9Replace this use of System.out or System.err by a logger.(½ÌŠ8©­ÙÅÚ0HßRMAJORZ
+m
+java:S1117‘"9Rename "track" which hides the field declared at line 34.(­õşŠ8øï‚°Û0Hø-RMAJORZ
 CODE_SMELL
-k	java:S106ª"9Replace this use of System.out or System.err by a logger.(ÿ˜…f8š“˜ŸÛ0H›RMAJORZ
+P
+java:S1116’"Remove this empty statement.(Èù´8Ø•°µÛ0Hù-RMINORZ
 CODE_SMELL
-j	java:S106T"9Replace this use of System.out or System.err by a logger.(ÿ˜…f8§áş€Û0HúRMAJORZ
+X
+java:S1659 " Declare "id" on a separate line.(ÍûÓœûÿÿÿÿ8»…õ´Û0H—'RMINORZ
+CODE_SMELL
+p	java:S106\"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8æÃ×³Û0HÕ#RMAJORZ
 CODE_SMELL
 ‘
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡ñŒ½üÿÿÿÿ8Ò¡ŸáÚ0HõRMINORZ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‡ñŒ½üÿÿÿÿ8Ò¡ŸáÚ0HÖ#RMINORZ
 CODE_SMELL
-k	java:S106_"9Replace this use of System.out or System.err by a logger.(áÂª8â¸ô¡Û0HóRMAJORZ
+n	java:S1254"<This block of commented-out lines of code should be removed.(˜‡ùÌ8áôû´Û0H¶'RMAJORZ
 CODE_SMELL
-k	java:S106*"9Replace this use of System.out or System.err by a logger.(³Ø«È8„€şøÚ0HÒRMAJORZ
+u
+java:S1117v"=Rename "condition" which hides the field declared at line 32.(éÿÑ½ıÿÿÿÿ8øï‚°Û0HÔ#RMAJORZ
 CODE_SMELL
-`	java:S1089")Either remove or fill this block of code.( ¤´Âûÿÿÿÿ8€ÜİÛ0HñRMAJORZ
+ˆ
+java:S3776u"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(™·ÇÃ8øï‚°Û0HØ#RCRITICALZ
 CODE_SMELL
-l	java:S106‰"9Replace this use of System.out or System.err by a logger.(ŠÕÕÖ8Ü…õöÚ0HÑRMAJORZ
+]	java:S131""Add a default case to this switch.(ê¢Èšÿÿÿÿÿ8ıŒÉ¶Û0HÚ-RCRITICALZ
 CODE_SMELL
-p	java:S106a"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8óÆãÚ0H‹RMAJORZ
+i
+java:S1117+"6Rename "id" which hides the field declared at line 32.(«§àè8áµµÛ0HÊ(RMAJORZ
 CODE_SMELL
-q	java:S106"9Replace this use of System.out or System.err by a logger.(Ü«Œèÿÿÿÿÿ8ÏøÒ£Û0HRMAJORZ
+‚	java:S116!"PRename this field "Check" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü‘„õ8™•¬¶Û0H˜,RMINORZ
 CODE_SMELL
-q	java:S106“"9Replace this use of System.out or System.err by a logger.(Ÿãµ×ùÿÿÿÿ8Şª’Û0HÔRMAJORZ
+o
+java:S1128"=Remove this unused import 'java.util.InputMismatchException'.(İ§18ıŒÉ¶Û0H-RMINORZ
+CODE_SMELL
+©
+java:S1192‰"rDefine a constant instead of duplicating this literal "Wrong Associate Id provide correct Id please ...
+" 6 times.(¢¾åø8øï‚°Û0Hğ-RCRITICALZ
 CODE_SMELL
 n
-java:S2386"6Move "trainerList" to a class and lower its visibility(‡ñŒ½üÿÿÿÿ8ŞóÃÿÚ0HÛRMINORZ
-CODE_SMELL
-a
-java:S1751q"5Remove this "break" statement or make it conditional.(›ûä·8¥¿¦Û0HÏRMAJORZBUG
-u
-java:S1117~"=Rename "condition" which hides the field declared at line 34.(éÿÑ½ıÿÿÿÿ8ÏøÒ£Û0HœRMAJORZ
-CODE_SMELL
-p	java:S106l"9Replace this use of System.out or System.err by a logger.(öòüÿÿÿÿ8ĞœªÛ0HÈRMAJORZ
-CODE_SMELL
-k	java:S106J"9Replace this use of System.out or System.err by a logger.(òØòƒ8‘ôÈ÷Ú0H–RMAJORZ
-CODE_SMELL
-k	java:S106="9Replace this use of System.out or System.err by a logger.(½ÌŠ8â¸ô¡Û0HÓRMAJORZ
-CODE_SMELL
-l	java:S106˜"9Replace this use of System.out or System.err by a logger.(ä”¦Ã8Šä­áÚ0HïRMAJORZ
-CODE_SMELL
-l	java:S106¢"9Replace this use of System.out or System.err by a logger.(œê—Î8ÿÚòáÚ0HãRMAJORZ
-CODE_SMELL
-p	java:S106"9Replace this use of System.out or System.err by a logger.(öòüÿÿÿÿ8¯¸‚¤Û0H¢RMAJORZ
-CODE_SMELL
-k	java:S106-"9Replace this use of System.out or System.err by a logger.(—åíÇ8ÛÏÅÚ0HîRMAJORZ
-CODE_SMELL
-p	java:S106j"9Replace this use of System.out or System.err by a logger.(€Ú´¾øÿÿÿÿ8¯¸‚¤Û0H¡RMAJORZ
-CODE_SMELL
-k	java:S106|"9Replace this use of System.out or System.err by a logger.(àØŸ¨8©­ÙÅÚ0H‘RMAJORZ
-CODE_SMELL
-q	java:S106"9Replace this use of System.out or System.err by a logger.(«õÈËıÿÿÿÿ8¥¿¦Û0HÖRMAJORZ
-CODE_SMELL
-p	java:S106p"9Replace this use of System.out or System.err by a logger.(­ó½Ùıÿÿÿÿ8úÆÚ0HÙRMAJORZ
-CODE_SMELL
-p	java:S106D"9Replace this use of System.out or System.err by a logger.(ÿ¯Âóüÿÿÿÿ8ö…ÖÛ0HÜRMAJORZ
-CODE_SMELL
-q	java:S106§"9Replace this use of System.out or System.err by a logger.(ÛÆÜûÿÿÿÿ8ºşÛ¡Û0H—RMAJORZ
-CODE_SMELL
-q	java:S106"9Replace this use of System.out or System.err by a logger.(ı·‡‘øÿÿÿÿ8â¸ô¡Û0H™RMAJORZ
-CODE_SMELL
-k	java:S106A"9Replace this use of System.out or System.err by a logger.(³ĞÆ®8Â¶¡Û0H”RMAJORZ
-CODE_SMELL
-l	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÆÀûı8â¸ô¡Û0HšRMAJORZ
-CODE_SMELL
-p	java:S106G"9Replace this use of System.out or System.err by a logger.(ÛÁ’¶úÿÿÿÿ8ºşÛ¡Û0H•RMAJORZ
-CODE_SMELL
-k	java:S106h"9Replace this use of System.out or System.err by a logger.(—ÂŠÌ8ö…ÖÛ0HĞRMAJORZ
-CODE_SMELL
-k	java:S106R"9Replace this use of System.out or System.err by a logger.(’Ê®¥8š“˜ŸÛ0HÎRMAJORZ
-CODE_SMELL
-p	java:S106<"9Replace this use of System.out or System.err by a logger.(Àã’„ÿÿÿÿÿ8øÉøÄÚ0HâRMAJORZ
-CODE_SMELL
-l	java:S106®"9Replace this use of System.out or System.err by a logger.(Ü¼Ü˜8ä‚º¤Û0H¥RMAJORZ
-CODE_SMELL
-q	java:S106²"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ä‚º¤Û0H¦RMAJORZ
+java:S2386"6Move "trainerList" to a class and lower its visibility(‡ñŒ½üÿÿÿÿ8ŞóÃÿÚ0Hö#RMINORZ
 CODE_SMELL

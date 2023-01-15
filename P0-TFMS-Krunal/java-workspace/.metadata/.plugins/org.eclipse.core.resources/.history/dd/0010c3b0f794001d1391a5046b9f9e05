@@ -1,0 +1,209 @@
+package com.revature.model;
+
+import static java.lang.System.*;
+import com.revature.constant.*;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public interface TrainerDetails {
+
+	static ArrayList<Trainer> trainerList = new ArrayList<Trainer>();
+
+	public abstract void addDetails();
+
+	public abstract void showTrainerDetails();
+
+	public abstract void deleteTrainerDetails();
+
+	public abstract void editTrainerDetails();
+	
+	public abstract void exitApplication();
+
+}
+
+class ChildTrainerDetails implements TrainerDetails {
+
+	Constant constant = new Constant();
+	Menu menu = new Menu();
+
+	Scanner scString = new Scanner(System.in);
+	Scanner scInt = new Scanner(System.in);
+
+	int condition;
+	String track;
+
+	@Override
+	public void addDetails() {
+		do {
+
+			out.print(constant.ENTERTRAINERID);
+			int id = scInt.nextInt();
+
+			out.print(constant.ENTERTRAINERNAME);
+			String name = scString.nextLine();
+
+			String java = TrainerTrack.JAVA.toString();
+			String dotnet = TrainerTrack.DOTNET.toString();
+			String mainframe = TrainerTrack.MAINFRAME.toString();
+			String testing = TrainerTrack.TESTING.toString();
+
+			out.print(constant.ENTERTRAINERTRACK);
+
+			track = scString.nextLine().toUpperCase();
+			if (track.equals(java) || track.equals(dotnet) || track.equals(mainframe) || track.equals(testing)) {
+
+			} else {
+				out.println("Please check speling and enter correct details again");
+				out.print(constant.ENTERTRAINERTRACK);
+				track = scString.nextLine().toUpperCase();
+			}
+
+			out.print(constant.ENTERTRAINERQUALIFICATION);
+			String qualification = scString.nextLine();
+
+			out.print(constant.ENTERTRAINEREXPERIENCE);
+			int experience = scInt.nextInt();
+
+			out.print(constant.ENTERTRAINERPHONUMBER);
+			String phone = scString.nextLine();
+
+			out.print(constant.ENTERTRAINEREMAIL);
+			String email = scString.nextLine();
+
+			Trainer trainerDetails = new Trainer(id, name, track, qualification, experience, phone, email);
+			trainerList.add(trainerDetails);
+
+			out.println(constant.CHECKCONDITION);
+			condition = scInt.nextInt();
+
+		} while (condition == 1);
+		menu.callMenu();
+	}
+
+	@Override
+	public void showTrainerDetails() {
+
+		for (Trainer a : trainerList) {
+			out.println(a.toString());
+		}
+		System.out.println();
+
+		menu.callMenu();
+	}
+
+	@Override
+	public void deleteTrainerDetails() {
+		out.println("Enter an Id of the trainer: ");
+		int delId = scInt.nextInt();
+		Iterator<Trainer> itr = trainerList.iterator();
+		int index = -1;
+		while (itr.hasNext()) {
+			if (itr.next().getTrainerId() == delId) {
+				itr.remove();
+				index = 0;
+			}
+		}
+		if (index == 0)
+			out.println("Deleted Successfully");
+		else
+			out.println("Id does not martched");
+		menu.callMenu();
+	}
+
+	@Override
+	public void editTrainerDetails() {
+		int condition;
+
+		do {
+
+			out.println("Enter an Id of the trainer: ");
+			int upId = scInt.nextInt();
+
+			out.println(
+					"Which field you want to update \nPress 1:Update Name\nPress 2:Update Track\nPress 3:Update Qualification\nPress 4:Update Experience\nPress 5:Update Phone\nPress 6:Update Email");
+			int press = scInt.nextInt();
+
+			switch (press) {
+			case 1:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Name :");
+						String name = scString.nextLine();
+						a.setTrainerName(name);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			case 2:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Track :");
+						String track = scString.nextLine();
+						a.setTrainerName(track);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			case 3:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Qualification :");
+						String qualification = scString.nextLine();
+						a.setTrainerName(qualification);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			case 4:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Experience :");
+						String experience = scString.nextLine();
+						a.setTrainerName(experience);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			case 5:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Phone :");
+						String phone = scString.nextLine();
+						a.setTrainerName(phone);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			case 6:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.println("Enter Trainer's New Email :");
+						String email = scString.nextLine();
+						a.setTrainerName(email);
+					} else {
+						out.println("Wrong Associate Id provide correct Id please ...\n");
+					}
+				}
+				break;
+			}
+
+			out.println(constant.CHECKCONDITION);
+			condition = scInt.nextInt();
+		} while (condition == 1);
+
+		menu.callMenu();
+
+	}
+
+	
+	@Override
+	public void exitApplication() {
+		out.println(constant.SWITCHTHANKYOU);
+	}
+}

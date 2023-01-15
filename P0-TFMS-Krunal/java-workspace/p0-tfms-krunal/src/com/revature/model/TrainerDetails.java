@@ -1,8 +1,9 @@
 package com.revature.model;
 
+import static java.lang.System.*;
 import com.revature.constant.*;
-
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -28,50 +29,54 @@ class ChildTrainerDetails implements TrainerDetails {
 	Scanner scString = new Scanner(System.in);
 	Scanner scInt = new Scanner(System.in);
 
-	int condition;
+	int condition, id;
+	int Check = 0;
 	String track;
+
+//	InputMismatchException
 
 	@Override
 	public void addDetails() {
 		do {
 
-			System.out.print(constant.ENTERTRAINERID);
+			out.print(constant.ENTERTRAINERID);
 			int id = scInt.nextInt();
 
-			System.out.print(constant.ENTERTRAINERNAME);
+			out.print(constant.ENTERTRAINERNAME);
 			String name = scString.nextLine();
 
 			String java = TrainerTrack.JAVA.toString();
 			String dotnet = TrainerTrack.DOTNET.toString();
 			String mainframe = TrainerTrack.MAINFRAME.toString();
 			String testing = TrainerTrack.TESTING.toString();
-			System.out.print(constant.ENTERTRAINERTRACK);
+//			int CheckTrack = 0;
 
-			track = scString.nextLine().toUpperCase();
-			if (track.equals(java) || track.equals(dotnet) || track.equals(mainframe) || track.equals(testing)) {
-
-			} else {
-				System.out.println("Please check speling and enter correct details again");
-				System.out.print(constant.ENTERTRAINERTRACK);
+			do {
+				out.print(constant.ENTERTRAINERTRACK);
 				track = scString.nextLine().toUpperCase();
-			}
+				if (track.equals(java) || track.equals(dotnet) || track.equals(mainframe) || track.equals(testing)) {
+					Check++;
+				} else {
+					out.print(constant.VALID);
+				}
+			} while (Check == 0);
 
-			System.out.print(constant.ENTERTRAINERQUALIFICATION);
+			out.print(constant.ENTERTRAINERQUALIFICATION);
 			String qualification = scString.nextLine();
 
-			System.out.print(constant.ENTERTRAINEREXPERIENCE);
+			out.print(constant.ENTERTRAINEREXPERIENCE);
 			int experience = scInt.nextInt();
 
-			System.out.print(constant.ENTERTRAINERPHONUMBER);
+			out.print(constant.ENTERTRAINERPHONUMBER);
 			String phone = scString.nextLine();
 
-			System.out.print(constant.ENTERTRAINEREMAIL);
+			out.print(constant.ENTERTRAINEREMAIL);
 			String email = scString.nextLine();
 
 			Trainer trainerDetails = new Trainer(id, name, track, qualification, experience, phone, email);
 			trainerList.add(trainerDetails);
 
-			System.out.println(constant.CHECKCONDITION);
+			out.println(constant.CHECKCONDITIONADD);
 			condition = scInt.nextInt();
 
 		} while (condition == 1);
@@ -82,7 +87,7 @@ class ChildTrainerDetails implements TrainerDetails {
 	public void showTrainerDetails() {
 
 		for (Trainer a : trainerList) {
-			System.out.println(a.toString());
+			out.println(a.toString());
 		}
 		System.out.println();
 
@@ -91,7 +96,7 @@ class ChildTrainerDetails implements TrainerDetails {
 
 	@Override
 	public void deleteTrainerDetails() {
-		System.out.println("Enter an Id of the trainer: ");
+		out.print(constant.ENTERTRAINERID);
 		int delId = scInt.nextInt();
 		Iterator<Trainer> itr = trainerList.iterator();
 		int index = -1;
@@ -102,9 +107,9 @@ class ChildTrainerDetails implements TrainerDetails {
 			}
 		}
 		if (index == 0)
-			System.out.println("Deleted Successfully");
+			out.print(constant.SUCCESS);
 		else
-			System.out.println("Id does not martched");
+			out.print(constant.VALID);
 		menu.callMenu();
 	}
 
@@ -114,89 +119,83 @@ class ChildTrainerDetails implements TrainerDetails {
 
 		do {
 
-			System.out.println("Enter an Id of the trainer: ");
+			out.print(constant.ENTERTRAINERID);
 			int upId = scInt.nextInt();
 
-			System.out.println(
-					"Which field you want to update \nPress 1:Update Name\nPress 2:Update Track\nPress 3:Update Qualification\nPress 4:Update Experience\nPress 5:Update Phone\nPress 6:Update Email");
+			
+			out.print(constant.CHOOSE);
 			int press = scInt.nextInt();
 
 			switch (press) {
-				case 1:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Name :");
-							String name = scString.nextLine();
-							a.setTrainerName(name);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 1:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Name :");
+						String name = scString.nextLine();
+						a.setTrainerName(name);
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
-				case 2:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Track :");
-							String track = scString.nextLine();
-							a.setTrainerName(track);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 2:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Track :");
+						String track = scString.nextLine();
+						a.setTrainerTrack(track);;
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
-				case 3:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Qualification :");
-							String qualification = scString.nextLine();
-							a.setTrainerName(qualification);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 3:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Qualification :");
+						String qualification = scString.nextLine();
+						a.setTrainerQualification(qualification);
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
-				case 4:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Experience :");
-							String experience = scString.nextLine();
-							a.setTrainerName(experience);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 4:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Experience :");
+						int experience = scInt.nextInt();
+						a.setTrainerExperience(experience);
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
-				case 5:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Phone :");
-							String phone = scString.nextLine();
-							a.setTrainerName(phone);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 5:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Phone :");
+						String phone = scString.nextLine();
+						a.setTrainerPhone(phone);
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
-				case 6:
-					for (Trainer a : trainerList) {
-						if (upId == (a.getTrainerId())) {
-							System.out.println("Enter Trainer's New Email :");
-							String email = scString.nextLine();
-							a.setTrainerName(email);
-						} 
-						else {
-						System.out.println("Wrong Associate Id provide correct Id please ...\n");
-						}
+			case 6:
+				for (Trainer a : trainerList) {
+					if (upId == (a.getTrainerId())) {
+						out.print("Enter Trainer's New Email :");
+						String email = scString.nextLine();
+						a.setTrainerEmail(email);
+					} else {
+						out.print("Wrong Associate Id provide correct Id please ...\n");
 					}
+				}
 				break;
 			}
 
-			System.out.println(constant.CHECKCONDITION);
+			out.println(constant.CHECKCONDITIONUPDATION);
 			condition = scInt.nextInt();
 		} while (condition == 1);
 

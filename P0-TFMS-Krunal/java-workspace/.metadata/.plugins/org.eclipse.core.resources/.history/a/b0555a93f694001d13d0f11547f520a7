@@ -1,0 +1,66 @@
+package com.revature.model;
+import java.util.Scanner;
+import com.revature.constant.Constant; 
+import static java.lang.System.*;
+
+
+public class Menu {
+	
+	Scanner scInt = new Scanner(System.in);
+	
+	public void menuList() {
+ 
+		Constant constant = new Constant();	
+		ChildTrainerDetails ctd = new ChildTrainerDetails();
+		
+		out.println(constant.APPLICATIONSHMENU);
+		out.println(constant.APPLICATIONADDDETAILS);	
+		out.println(constant.APPLICATIONTRAINERDETAILS);
+		out.println(constant.APPLICATIONDELETETRAINERDETAILS);
+		out.println(constant.APPLICATIONUPDATETRAINERDETAILS);
+		out.println(constant.APPLICATIONEXIT);
+		
+		
+		int press = scInt.nextInt();
+		switch(press)
+		{
+			case 1:
+				out.println(constant.SWITCHADDDETAILS); 
+				ctd.addDetails();
+				break;
+			case 2:
+				out.println(constant.SWITCHTRAINERDETAILS);
+				ctd.showTrainerDetails();
+				break;
+			case 3:
+				out.println(constant.SWITCHDELETETRAINERDETAILS);
+				ctd.deleteTrainerDetails();
+				break;
+			case 4:
+				out.println(constant.SWITCHUPDATETRAINERDETAILS);
+				ctd.editTrainerDetails();
+				break;
+			case 5:
+				out.println(constant.SWITCHTHANKYOU);
+				ctd.editTrainerDetails();
+				break;
+//			case 5:
+//				ArrayListSort();
+//				break;
+			default:
+				out.println(constant.DEFAULTVALUE);
+		}
+	}
+	
+	public void callMenu() {
+		out.println("Press 1: View Menu\nPress 2: Exit");
+		int press = scInt.nextInt();
+		if(press==1) {
+			Menu menu = new Menu();
+			menu.menuList();
+		}
+		else {
+			out.println("********* Thank You *********");
+		}
+	}
+}

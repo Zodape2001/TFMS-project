@@ -1,6 +1,8 @@
 package com.revature.model;
 import java.util.Scanner;
-import com.revature.constant.Constant; 
+import com.revature.constant.Constant;
+import com.revature.service.impl.TrainerDetailsImpl;
+
 import static java.lang.System.*;
 
 
@@ -11,7 +13,7 @@ public class Menu {
 	
 	public void menuList() {
  
-		ChildTrainerDetails ctd = new ChildTrainerDetails();
+		TrainerDetailsImpl ctd = new TrainerDetailsImpl();
 		
 		out.println(constant.MENU);
 		out.println(constant.MENUADDDETAILS);	

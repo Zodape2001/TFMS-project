@@ -15,3 +15,11 @@ W
 'src/com/revature/constant/Constant.java,6\7\673ec12fcb08a63d8be214df4de5d424885482f3
 P
  src/com/revature/model/Menu.java,a\1\a1ad8974c0e615b29ef1bfa437959c17c042acca
+h
+8src/com/revature/service/impl/TrainerDetailsImplmpl.java,b\a\ba4a47172baa0ac73021e299969afcf3a3579aa3
+[
++src/com/revatur/service/TrainerDetails.java,1\4\14d6facfe8eb40f60e09cfad4f1dab69a83f2683
+e
+5src/com/revature/service/impl/TrainerDetailsImpl.java,2\e\2ea439d8bf3b54029ea287615d45223608954993
+U
+%src/com/revature/app/Application.java,8\3\83cd80b30adbc8ac31cd3a05cc2394fa09a9afa1

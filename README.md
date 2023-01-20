@@ -2,14 +2,14 @@
 
 This projet is of trainning feedback management system.
 
-# In that I have used technologies:
+## In that I have used technologies:
   - Core java, 
   - MySQL database, 
   - Maven, Junit, 
   - Logger, 
   - JDBC. 
   
-# In that project my module is trainer where as admin, I should be able to: 
+## In that project my module is trainer where as admin, I should be able to: 
   - Add new trainer details, 
   - List the added trainers, 
   - Update the existing trainer details, 

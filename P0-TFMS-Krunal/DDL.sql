@@ -4,82 +4,48 @@ CREATE DATABASE tfms_db_krunal;
 USE tfms_db_krunal;
 
 -- creating tables
-DROP TABLE IF EXISTS trainer_details;
-CREATE TABLE trainer_details
-(
-trainer_id VARCHAR(15),
-trainer_name VARCHAR(55) NOT NULL,
-track ENUM('java', 'dot net', 'mainframe', 'testing') NOT NULL,
-qualification VARCHAR(55) NOT NULL,
-experience VARCHAR(15) NOT NULL,
-phone VARCHAR(15) NOT NULL,
-email VARCHAR(55) NOT NULL,
-PRIMARY KEY(trainer_id)
+drop table Associate;
+CREATE TABLE associate
+(    
+    Associate_id VARCHAR(40) NOT NULL,
+    Associate_name VARCHAR(30),
+    Associate_track ENUM('java','dotnet','mainframe','testing') NOT NULL,
+    Associate_qualification VARCHAR(10),
+    Associate_experience VARCHAR(20),
+    PRIMARY KEY(Associate_id)
 );
 
-DROP TABLE IF EXISTS trainee_details;
-CREATE TABLE trainee_details
-(
-trainee_id VARCHAR(15),
-trainee_name VARCHAR(55) NOT NULL,
-trainee_track ENUM('java', 'dot net', 'mainframe', 'testing') NOT NULL,
-trainee_qualification VARCHAR(55) NOT NULL,
-trainee_experience VARCHAR(15) NOT NULL,
-trainee_phone VARCHAR(15) NOT NULL,
-trainee_email VARCHAR(55) NOT NULL,
-PRIMARY KEY(trainee_id)
+drop table batch;
+create table batch(
+topic_name varchar(255),
+start_date varchar(255),
+end_date varchar(255),
+batch_duration int, 
+trainer_id varchar(15),
+Associate_id varchar(40),
+FOREIGN KEY (trainer_id) REFERENCES trainer(trainer_id),
+FOREIGN KEY (Associate_id) REFERENCES associate(Associate_id)
 );
 
-DROP TABLE IF EXISTS batch;
-CREATE TABLE batch
-(
-topic_name VARCHAR(55),
-training_duration VARCHAR(55) NOT NULL,
-trainer_id VARCHAR(15),
-trainee_id VARCHAR(15),
-training_start_date date,
-training_end_date date,
-FOREIGN KEY (trainer_id) REFERENCES trainer_details(trainer_id),
-FOREIGN KEY (trainee_id) REFERENCES trainee_details(trainee_id)
+Drop table if exists question_management;
+create table question_management(
+question_id varchar(10) primary key,
+question_section enum('Instructor','Course Material','Learning Effectiveness','Environment','Job Impact'),
+question_text varchar(300)
 );
 
-DROP TABLE IF EXISTS question_details;
-CREATE TABLE question_details
-(
-question_id VARCHAR(15),
-question_section VARCHAR(155) NOT NULL,
-question_text text,
-PRIMARY KEY (question_id)
+Drop table if exists capture_feedback;
+create table capture_feedback(
+trainer_id varchar(15),
+FOREIGN KEY (trainer_id) REFERENCES trainer(trainer_id),
+Associate_id varchar(40),
+FOREIGN KEY (Associate_id) REFERENCES associate(Associate_id),
+topic_name varchar(255),
+question_id varchar(10),
+foreign key (question_id) references question_management(question_id),
+question_section enum('Instructor','Course Material','Learning Effectiveness','Environment','Job Impact'),
+question_text varchar(255),
+rating int
 );
 
-DROP TABLE IF EXISTS feedback;
-CREATE TABLE feedback
-(
-feedback_trainer_id VARCHAR(15),
-feedback_trainee_id VARCHAR(15),
-feedback_topic_name VARCHAR(55) NOT NULL,
-feedback_question_id VARCHAR(15),
-feedback_question_section VARCHAR(155) NOT NULL,
-feedback_question_text text,
-FOREIGN KEY (feedback_trainer_id) REFERENCES trainer_details(trainer_id),
-FOREIGN KEY (feedback_trainee_id) REFERENCES trainee_details(trainee_id),
-FOREIGN KEY (feedback_question_id) REFERENCES question_details(question_id)
-);
 
-ALTER TABLE feedback
-ADD COLUMN rating VARCHAR(10);
-
--- Changed entity and atribute name of trainer table 
-ALTER TABLE trainer_details RENAME trainer;
-ALTER TABLE trainer RENAME COLUMN track TO trainer_track;
-ALTER TABLE trainer RENAME COLUMN qualification TO trainer_qual;
-ALTER TABLE trainer RENAME COLUMN experience TO trainer_exp;
-ALTER TABLE trainer DROP COLUMN phone;
-ALTER TABLE trainer DROP COLUMN email;
-
--- Changed entity and atribute name of trainee table 
-ALTER TABLE trainee_details RENAME trainee;
-ALTER TABLE trainee RENAME COLUMN trainee_qualification TO trainee_qual;
-ALTER TABLE trainee RENAME COLUMN trainee_experience TO trainee_exp;
-ALTER TABLE trainee DROP COLUMN trainee_phone;
-ALTER TABLE trainee DROP COLUMN trainee_email;

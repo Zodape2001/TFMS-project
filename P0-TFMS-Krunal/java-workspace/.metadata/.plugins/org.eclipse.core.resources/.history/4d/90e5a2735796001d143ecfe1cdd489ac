@@ -1,5 +1,0 @@
-package com.revatur.service;
-
-public interface TrainerDetails {
-
-}

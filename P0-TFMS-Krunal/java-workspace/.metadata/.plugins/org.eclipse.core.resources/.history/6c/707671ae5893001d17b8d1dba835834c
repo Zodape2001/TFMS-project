@@ -1,5 +1,0 @@
-package com.revature.constant;
-
-public class Constant {
-	public String ENTERUSERID = "Enter your Id: ";
-}

@@ -108,4 +108,101 @@ Press 2: Logout
   2023-01-20 08:39:46 INFO  Menu:23 - Press 4: Update Trainer details
   2023-01-20 08:39:46 INFO  Menu:24 - Press 5: Logout
   2023-01-20 08:39:46 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 10:37:20 INFO  Menu:29 - ================================
+  2023-01-20 10:37:20 INFO  Menu:30 -               Login
+  2023-01-20 10:37:20 INFO  Menu:31 - ================================
+  2023-01-20 10:37:20 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:37:37 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:37:37 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 10:37:37 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:37:48 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:37:52 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 10:37:52 INFO  Menu:62 - Welcome krunal
+  2023-01-20 10:37:52 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 10:37:52 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 10:37:52 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:38:03 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:38:08 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 10:38:08 INFO  Menu:17 - ================================
+  2023-01-20 10:38:08 INFO  Menu:18 -             MENU         
+  2023-01-20 10:38:08 INFO  Menu:19 - ================================
+  2023-01-20 10:38:08 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 10:38:08 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 10:38:08 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 10:38:08 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 10:38:08 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 10:38:08 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 10:51:21 INFO  Menu:29 - ================================
+  2023-01-20 10:51:21 INFO  Menu:30 -               Login
+  2023-01-20 10:51:21 INFO  Menu:31 - ================================
+  2023-01-20 10:51:21 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:51:32 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:51:35 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 10:51:35 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:51:49 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:51:53 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 10:51:53 INFO  Menu:62 - Welcome krunal
+  2023-01-20 10:51:53 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 10:51:53 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 10:51:53 INFO  Menu:36 - Enter Username: 
+  2023-01-20 10:52:07 INFO  Menu:38 - Enter Password: 
+  2023-01-20 10:52:10 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 10:52:10 INFO  Menu:17 - ================================
+  2023-01-20 10:52:10 INFO  Menu:18 -             MENU         
+  2023-01-20 10:52:10 INFO  Menu:19 - ================================
+  2023-01-20 10:52:10 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 10:52:10 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 10:52:10 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 10:52:10 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 10:52:10 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 10:52:10 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 11:30:33 INFO  Menu:29 - ================================
+  2023-01-20 11:30:33 INFO  Menu:30 -               Login
+  2023-01-20 11:30:33 INFO  Menu:31 - ================================
+  2023-01-20 11:30:33 INFO  Menu:36 - Enter Username: 
+  2023-01-20 11:30:35 INFO  Menu:38 - Enter Password: 
+  2023-01-20 11:30:36 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 11:30:36 INFO  Menu:36 - Enter Username: 
+  2023-01-20 11:30:45 INFO  Menu:38 - Enter Password: 
+  2023-01-20 11:30:50 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 11:30:50 INFO  Menu:62 - Welcome krunal
+  2023-01-20 11:30:50 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 11:30:50 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 11:30:50 INFO  Menu:36 - Enter Username: 
+  2023-01-20 11:31:01 INFO  Menu:38 - Enter Password: 
+  2023-01-20 11:31:03 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 11:31:03 INFO  Menu:36 - Enter Username: 
+  2023-01-20 11:31:07 INFO  Menu:38 - Enter Password: 
+  2023-01-20 11:31:15 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 11:31:15 INFO  Menu:17 - ================================
+  2023-01-20 11:31:15 INFO  Menu:18 -             MENU         
+  2023-01-20 11:31:15 INFO  Menu:19 - ================================
+  2023-01-20 11:31:15 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 11:31:15 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 11:31:15 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 11:31:15 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 11:31:15 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 11:31:15 INFO  Menu:25 - Press 6: Register Trainer
   

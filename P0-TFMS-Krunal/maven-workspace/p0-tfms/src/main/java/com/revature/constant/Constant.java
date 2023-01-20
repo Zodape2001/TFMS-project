@@ -16,7 +16,7 @@ public class Constant {
 	public static final String LOGIN_SUCCESSFULL = "Login successfull \u2713 \ud83d\ude00";
 	public static final String ENTER_PASSWORD_LOGINIMPL = "Enter Password: ";
 	public static final String ENTER_USERNAME_LOGINIMPL = "Enter Username: ";
-	public static final String LOGIN = "              Login";
+	public static final String LOGIN = "             Login";
 	public static final String ENTER_ADMIN_CREDENTIAL = "================================\nEnter Admin's Credential's for making changes\n";
 
 	
@@ -71,7 +71,7 @@ public class Constant {
 	
 //	This constants are used in Menu class (model/callMenu)
 	public static final String CALLMENU = "Press 1: View Menu\nPress 2: Logout";
-	public static final String THANKYOU = "          Thank You";
+	public static final String THANKYOU = "           Thank You          ";
 
 	
 //	This constants are used in switch statement of Main Application (model/SWITCH)

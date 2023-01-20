@@ -205,4 +205,655 @@ Enter valid Credential's
   2023-01-20 11:31:15 INFO  Menu:23 - Press 4: Update Trainer details
   2023-01-20 11:31:15 INFO  Menu:24 - Press 5: Logout
   2023-01-20 11:31:15 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:07:38 INFO  Menu:29 - ================================
+  2023-01-20 12:07:38 INFO  Menu:30 -               Login
+  2023-01-20 12:07:38 INFO  Menu:31 - ================================
+  2023-01-20 12:07:38 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:08:34 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:08:34 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 12:08:34 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:08:40 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:08:43 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 12:08:43 INFO  Menu:62 - Welcome krunal
+  2023-01-20 12:08:43 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 12:08:43 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 12:08:43 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:08:48 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:08:51 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 12:08:51 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:08:53 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:08:57 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 12:08:57 INFO  Menu:17 - ================================
+  2023-01-20 12:08:57 INFO  Menu:18 -             MENU         
+  2023-01-20 12:08:57 INFO  Menu:19 - ================================
+  2023-01-20 12:08:57 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:08:57 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:08:57 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:08:57 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:08:57 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:08:57 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:08:59 INFO  Menu:36 - ================================
+  2023-01-20 12:08:59 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 12:08:59 INFO  Menu:38 - ================================
+  2023-01-20 12:08:59 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 12:09:13 INFO  Menu:17 - ================================
+  2023-01-20 12:09:13 INFO  Menu:18 -             MENU         
+  2023-01-20 12:09:13 INFO  Menu:19 - ================================
+  2023-01-20 12:09:13 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:09:13 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:09:13 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:09:13 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:09:13 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:09:13 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:09:23 INFO  Menu:58 - ================================
+  2023-01-20 12:09:23 INFO  Menu:59 - Register Trainer
+  2023-01-20 12:09:23 INFO  Menu:60 - ================================
+  2023-01-20 12:09:23 INFO  Menu:34 - Enter username: 
+  2023-01-20 12:09:34 INFO  Menu:36 - Enter Password: 
+  2023-01-20 12:09:39 INFO  Menu:38 - Enter Id of Trainer: 
+  2023-01-20 12:09:58 INFO  Menu:50 - Data Inserted !
+  2023-01-20 12:09:58 INFO  Menu:58 - If you want to add more data press: 1 or 0 !
+  2023-01-20 12:10:00 INFO  Menu:62 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 12:10:50 INFO  Menu:72 - ================================
+  2023-01-20 12:10:50 INFO  Menu:73 -           Thank You
+  2023-01-20 12:10:50 INFO  Menu:74 - ================================
+  2023-01-20 12:10:50 INFO  Menu:29 - ================================
+  2023-01-20 12:10:50 INFO  Menu:30 -               Login
+  2023-01-20 12:10:50 INFO  Menu:31 - ================================
+  2023-01-20 12:10:50 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:10:57 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:11:00 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 12:11:00 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:15:00 INFO  Menu:29 - ================================
+  2023-01-20 12:15:00 INFO  Menu:30 -               Login
+  2023-01-20 12:15:00 INFO  Menu:31 - ================================
+  2023-01-20 12:15:00 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:15:05 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:15:08 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 12:15:08 INFO  Menu:17 - ================================
+  2023-01-20 12:15:08 INFO  Menu:18 -             MENU         
+  2023-01-20 12:15:08 INFO  Menu:19 - ================================
+  2023-01-20 12:15:08 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:15:08 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:15:08 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:15:08 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:15:08 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:15:08 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:15:11 INFO  Menu:29 - ================================
+  2023-01-20 12:15:11 INFO  Menu:30 -               Login
+  2023-01-20 12:15:11 INFO  Menu:31 - ================================
+  2023-01-20 12:15:11 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:15:31 INFO  Menu:29 - ================================
+  2023-01-20 12:15:31 INFO  Menu:30 -               Login
+  2023-01-20 12:15:31 INFO  Menu:31 - ================================
+  2023-01-20 12:15:31 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:15:52 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:15:55 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 12:15:55 INFO  Menu:17 - ================================
+  2023-01-20 12:15:55 INFO  Menu:18 -             MENU         
+  2023-01-20 12:15:55 INFO  Menu:19 - ================================
+  2023-01-20 12:15:55 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:15:55 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:15:55 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:15:55 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:15:55 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:15:55 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:15:57 INFO  Menu:29 - ================================
+  2023-01-20 12:15:57 INFO  Menu:30 -               Login
+  2023-01-20 12:15:57 INFO  Menu:31 - ================================
+  2023-01-20 12:15:57 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:16:17 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:16:20 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 12:16:20 INFO  Menu:17 - ================================
+  2023-01-20 12:16:20 INFO  Menu:18 -             MENU         
+  2023-01-20 12:16:20 INFO  Menu:19 - ================================
+  2023-01-20 12:16:20 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:16:20 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:16:20 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:16:20 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:16:20 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:16:20 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:16:23 INFO  Menu:36 - ================================
+  2023-01-20 12:16:23 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 12:16:23 INFO  Menu:38 - ================================
+  2023-01-20 12:16:23 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 12:16:25 INFO  Menu:180 - ================================
+  2023-01-20 12:16:25 INFO  Menu:181 -      ὤF     Thank You     ὤF     
+  2023-01-20 12:16:25 INFO  Menu:182 - ================================
+  2023-01-20 12:16:25 INFO  Menu:29 - ================================
+  2023-01-20 12:16:25 INFO  Menu:30 -               Login
+  2023-01-20 12:16:25 INFO  Menu:31 - ================================
+  2023-01-20 12:16:25 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:19:18 INFO  Menu:29 - ================================
+  2023-01-20 12:19:18 INFO  Menu:30 -               Login
+  2023-01-20 12:19:18 INFO  Menu:31 - ================================
+  2023-01-20 12:19:18 INFO  Menu:36 - Enter Username: 
+  2023-01-20 12:19:22 INFO  Menu:38 - Enter Password: 
+  2023-01-20 12:19:25 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 12:19:25 INFO  Menu:17 - ================================
+  2023-01-20 12:19:25 INFO  Menu:18 -             MENU         
+  2023-01-20 12:19:25 INFO  Menu:19 - ================================
+  2023-01-20 12:19:25 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 12:19:25 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 12:19:25 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 12:19:25 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 12:19:25 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 12:19:25 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 12:19:28 INFO  Menu:36 - ================================
+  2023-01-20 12:19:28 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 12:19:28 INFO  Menu:38 - ================================
+  2023-01-20 12:19:28 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 12:19:31 INFO  Menu:180 - ================================
+  2023-01-20 12:19:31 INFO  Menu:181 -    ὤF     Thank You     ὤF     
+  2023-01-20 12:19:31 INFO  Menu:182 - ================================
+  2023-01-20 12:19:31 INFO  Menu:29 - ================================
+  2023-01-20 12:19:31 INFO  Menu:30 -               Login
+  2023-01-20 12:19:31 INFO  Menu:31 - ================================
+  2023-01-20 12:19:31 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:00:27 INFO  Menu:29 - ================================
+  2023-01-20 13:00:27 INFO  Menu:30 -               Login
+  2023-01-20 13:00:27 INFO  Menu:31 - ================================
+  2023-01-20 13:00:27 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:00:33 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:00:36 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:00:36 INFO  Menu:17 - ================================
+  2023-01-20 13:00:36 INFO  Menu:18 -             MENU         
+  2023-01-20 13:00:36 INFO  Menu:19 - ================================
+  2023-01-20 13:00:36 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:00:36 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:00:36 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:00:36 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:00:36 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:00:36 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:00:38 INFO  Menu:36 - ================================
+  2023-01-20 13:00:38 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:00:38 INFO  Menu:38 - ================================
+  2023-01-20 13:00:38 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:00:39 INFO  Menu:180 - ================================
+  2023-01-20 13:00:39 INFO  Menu:181 -         Thank You          
+  2023-01-20 13:00:39 INFO  Menu:182 - ================================
+  2023-01-20 13:00:39 INFO  Menu:29 - ================================
+  2023-01-20 13:00:39 INFO  Menu:30 -               Login
+  2023-01-20 13:00:39 INFO  Menu:31 - ================================
+  2023-01-20 13:00:39 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:00:49 INFO  Menu:29 - ================================
+  2023-01-20 13:00:49 INFO  Menu:30 -               Login
+  2023-01-20 13:00:49 INFO  Menu:31 - ================================
+  2023-01-20 13:00:49 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:00:53 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:00:56 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:00:56 INFO  Menu:17 - ================================
+  2023-01-20 13:00:56 INFO  Menu:18 -             MENU         
+  2023-01-20 13:00:56 INFO  Menu:19 - ================================
+  2023-01-20 13:00:56 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:00:56 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:00:56 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:00:56 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:00:56 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:00:56 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:00:58 INFO  Menu:36 - ================================
+  2023-01-20 13:00:58 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:00:58 INFO  Menu:38 - ================================
+  2023-01-20 13:00:58 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:00:59 INFO  Menu:180 - ================================
+  2023-01-20 13:00:59 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:00:59 INFO  Menu:182 - ================================
+  2023-01-20 13:00:59 INFO  Menu:29 - ================================
+  2023-01-20 13:00:59 INFO  Menu:30 -               Login
+  2023-01-20 13:00:59 INFO  Menu:31 - ================================
+  2023-01-20 13:00:59 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:01:29 INFO  Menu:29 - ================================
+  2023-01-20 13:01:29 INFO  Menu:30 -            Login
+  2023-01-20 13:01:29 INFO  Menu:31 - ================================
+  2023-01-20 13:01:29 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:01:33 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:01:39 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:01:39 INFO  Menu:17 - ================================
+  2023-01-20 13:01:39 INFO  Menu:18 -             MENU         
+  2023-01-20 13:01:39 INFO  Menu:19 - ================================
+  2023-01-20 13:01:39 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:01:39 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:01:39 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:01:39 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:01:39 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:01:39 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:01:40 INFO  Menu:36 - ================================
+  2023-01-20 13:01:40 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:01:40 INFO  Menu:38 - ================================
+  2023-01-20 13:01:41 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:01:42 INFO  Menu:180 - ================================
+  2023-01-20 13:01:42 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:01:42 INFO  Menu:182 - ================================
+  2023-01-20 13:01:42 INFO  Menu:29 - ================================
+  2023-01-20 13:01:42 INFO  Menu:30 -            Login
+  2023-01-20 13:01:42 INFO  Menu:31 - ================================
+  2023-01-20 13:01:42 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:01:59 INFO  Menu:29 - ================================
+  2023-01-20 13:01:59 INFO  Menu:30 -               Login
+  2023-01-20 13:01:59 INFO  Menu:31 - ================================
+  2023-01-20 13:01:59 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:00 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:02:02 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 13:02:02 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:05 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:02:09 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:02:09 INFO  Menu:17 - ================================
+  2023-01-20 13:02:09 INFO  Menu:18 -             MENU         
+  2023-01-20 13:02:09 INFO  Menu:19 - ================================
+  2023-01-20 13:02:09 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:02:09 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:02:09 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:02:09 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:02:09 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:02:09 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:02:11 INFO  Menu:36 - ================================
+  2023-01-20 13:02:11 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:02:11 INFO  Menu:38 - ================================
+  2023-01-20 13:02:11 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:02:11 INFO  Menu:180 - ================================
+  2023-01-20 13:02:11 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:02:11 INFO  Menu:182 - ================================
+  2023-01-20 13:02:11 INFO  Menu:29 - ================================
+  2023-01-20 13:02:11 INFO  Menu:30 -               Login
+  2023-01-20 13:02:11 INFO  Menu:31 - ================================
+  2023-01-20 13:02:11 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:24 INFO  Menu:29 - ================================
+  2023-01-20 13:02:24 INFO  Menu:30 -             Login
+  2023-01-20 13:02:24 INFO  Menu:31 - ================================
+  2023-01-20 13:02:24 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:27 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:02:30 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:02:30 INFO  Menu:17 - ================================
+  2023-01-20 13:02:30 INFO  Menu:18 -             MENU         
+  2023-01-20 13:02:30 INFO  Menu:19 - ================================
+  2023-01-20 13:02:30 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:02:30 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:02:30 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:02:30 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:02:30 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:02:30 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:02:31 INFO  Menu:36 - ================================
+  2023-01-20 13:02:31 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:02:31 INFO  Menu:38 - ================================
+  2023-01-20 13:02:31 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:02:31 INFO  Menu:180 - ================================
+  2023-01-20 13:02:31 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:02:31 INFO  Menu:182 - ================================
+  2023-01-20 13:02:31 INFO  Menu:29 - ================================
+  2023-01-20 13:02:31 INFO  Menu:30 -             Login
+  2023-01-20 13:02:31 INFO  Menu:31 - ================================
+  2023-01-20 13:02:31 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:40 INFO  Menu:29 - ================================
+  2023-01-20 13:02:40 INFO  Menu:30 -              Login
+  2023-01-20 13:02:40 INFO  Menu:31 - ================================
+  2023-01-20 13:02:40 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:02:42 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:02:46 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:02:46 INFO  Menu:17 - ================================
+  2023-01-20 13:02:46 INFO  Menu:18 -             MENU         
+  2023-01-20 13:02:46 INFO  Menu:19 - ================================
+  2023-01-20 13:02:46 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:02:46 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:02:46 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:02:46 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:02:46 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:02:46 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:02:47 INFO  Menu:36 - ================================
+  2023-01-20 13:02:47 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:02:47 INFO  Menu:38 - ================================
+  2023-01-20 13:02:47 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:02:48 INFO  Menu:180 - ================================
+  2023-01-20 13:02:48 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:02:48 INFO  Menu:182 - ================================
+  2023-01-20 13:02:48 INFO  Menu:29 - ================================
+  2023-01-20 13:02:48 INFO  Menu:30 -              Login
+  2023-01-20 13:02:48 INFO  Menu:31 - ================================
+  2023-01-20 13:02:48 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:37:01 INFO  Menu:29 - ================================
+  2023-01-20 13:37:01 INFO  Menu:30 -              Login
+  2023-01-20 13:37:01 INFO  Menu:31 - ================================
+  2023-01-20 13:37:01 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:51:06 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:51:07 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 13:51:07 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:51:22 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:51:29 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 13:51:29 INFO  Menu:62 - Welcome krunal
+  2023-01-20 13:51:29 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 13:51:29 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 13:51:29 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:51:47 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:51:50 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:51:50 INFO  Menu:17 - ================================
+  2023-01-20 13:51:50 INFO  Menu:18 -             MENU         
+  2023-01-20 13:51:50 INFO  Menu:19 - ================================
+  2023-01-20 13:51:50 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:51:50 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:51:50 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:51:50 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:51:50 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:51:50 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:52:14 INFO  Menu:36 - ================================
+  2023-01-20 13:52:14 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:52:14 INFO  Menu:38 - ================================
+  2023-01-20 13:52:14 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:52:27 INFO  Menu:17 - ================================
+  2023-01-20 13:52:27 INFO  Menu:18 -             MENU         
+  2023-01-20 13:52:27 INFO  Menu:19 - ================================
+  2023-01-20 13:52:27 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:52:27 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:52:27 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:52:27 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:52:27 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:52:27 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:52:34 INFO  Menu:30 - ================================
+  2023-01-20 13:52:34 INFO  Menu:31 -          ADD DETAILS         
+  2023-01-20 13:52:34 INFO  Menu:32 - ================================
+  2023-01-20 13:52:34 INFO  Menu:85 - Enter Id: 
+  2023-01-20 13:52:39 INFO  Menu:88 - Enter Name: 
+  2023-01-20 13:52:43 INFO  Menu:96 - Enter Track(MUST be JAVA or DOTNET or MAINFRAME or TESTING): 
+  2023-01-20 13:52:59 INFO  Menu:101 - Please Enter Valid Data !
+  2023-01-20 13:52:59 INFO  Menu:96 - Enter Track(MUST be JAVA or DOTNET or MAINFRAME or TESTING): 
+  2023-01-20 13:53:05 INFO  Menu:105 - Enter Qualification: 
+  2023-01-20 13:53:16 INFO  Menu:108 - Enter Experience: 
+  2023-01-20 13:53:21 INFO  Menu:123 - Data Inserted !
+  2023-01-20 13:53:21 INFO  Menu:127 - If you want to add more data press: 1 or 0 !
+  2023-01-20 13:53:34 INFO  Menu:133 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:53:43 INFO  Menu:17 - ================================
+  2023-01-20 13:53:43 INFO  Menu:18 -             MENU         
+  2023-01-20 13:53:43 INFO  Menu:19 - ================================
+  2023-01-20 13:53:43 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:53:43 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:53:43 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:53:43 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:53:43 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:53:43 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:53:48 INFO  Menu:36 - ================================
+  2023-01-20 13:53:48 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:53:48 INFO  Menu:38 - ================================
+  2023-01-20 13:53:48 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:54:00 INFO  Menu:180 - ================================
+  2023-01-20 13:54:00 INFO  Menu:181 -            Thank You          
+  2023-01-20 13:54:00 INFO  Menu:182 - ================================
+  2023-01-20 13:54:00 INFO  Menu:29 - ================================
+  2023-01-20 13:54:00 INFO  Menu:30 -              Login
+  2023-01-20 13:54:00 INFO  Menu:31 - ================================
+  2023-01-20 13:54:00 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:57:32 INFO  Menu:29 - ================================
+  2023-01-20 13:57:32 INFO  Menu:30 -              Login
+  2023-01-20 13:57:32 INFO  Menu:31 - ================================
+  2023-01-20 13:57:32 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:57:45 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:57:48 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 13:57:48 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:58:07 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:58:19 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 13:58:19 INFO  Menu:62 - Welcome krunal
+  2023-01-20 13:58:19 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 13:58:19 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 13:58:19 INFO  Menu:36 - Enter Username: 
+  2023-01-20 13:58:37 INFO  Menu:38 - Enter Password: 
+  2023-01-20 13:58:40 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 13:58:40 INFO  Menu:17 - ================================
+  2023-01-20 13:58:40 INFO  Menu:18 -             MENU         
+  2023-01-20 13:58:40 INFO  Menu:19 - ================================
+  2023-01-20 13:58:40 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:58:40 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:58:40 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:58:40 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:58:40 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:58:40 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:59:03 INFO  Menu:36 - ================================
+  2023-01-20 13:59:03 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 13:59:03 INFO  Menu:38 - ================================
+  2023-01-20 13:59:03 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 13:59:12 INFO  Menu:17 - ================================
+  2023-01-20 13:59:12 INFO  Menu:18 -             MENU         
+  2023-01-20 13:59:12 INFO  Menu:19 - ================================
+  2023-01-20 13:59:12 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 13:59:12 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 13:59:12 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 13:59:12 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 13:59:12 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 13:59:12 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 13:59:21 INFO  Menu:30 - ================================
+  2023-01-20 13:59:21 INFO  Menu:31 -          ADD DETAILS         
+  2023-01-20 13:59:21 INFO  Menu:32 - ================================
+  2023-01-20 13:59:21 INFO  Menu:85 - Enter Id: 
+  2023-01-20 13:59:25 INFO  Menu:88 - Enter Name: 
+  2023-01-20 13:59:29 INFO  Menu:96 - Enter Track(MUST be JAVA or DOTNET or MAINFRAME or TESTING): 
+  2023-01-20 13:59:47 INFO  Menu:101 - Please Enter Valid Data !
+  2023-01-20 13:59:47 INFO  Menu:96 - Enter Track(MUST be JAVA or DOTNET or MAINFRAME or TESTING): 
+  2023-01-20 13:59:52 INFO  Menu:105 - Enter Qualification: 
+  2023-01-20 13:59:55 INFO  Menu:108 - Enter Experience: 
+  2023-01-20 13:59:59 INFO  Menu:123 - Data Inserted !
+  2023-01-20 13:59:59 INFO  Menu:127 - If you want to add more data press: 1 or 0 !
+  2023-01-20 14:00:09 INFO  Menu:133 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:00:17 INFO  Menu:17 - ================================
+  2023-01-20 14:00:17 INFO  Menu:18 -             MENU         
+  2023-01-20 14:00:17 INFO  Menu:19 - ================================
+  2023-01-20 14:00:17 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:00:17 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:00:17 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:00:17 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:00:17 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:00:17 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:00:19 INFO  Menu:36 - ================================
+  2023-01-20 14:00:19 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 14:00:19 INFO  Menu:38 - ================================
+  2023-01-20 14:00:19 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:00:27 INFO  Menu:17 - ================================
+  2023-01-20 14:00:27 INFO  Menu:18 -             MENU         
+  2023-01-20 14:00:27 INFO  Menu:19 - ================================
+  2023-01-20 14:00:27 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:00:27 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:00:27 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:00:27 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:00:27 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:00:27 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:00:38 INFO  Menu:42 - ================================
+  2023-01-20 14:00:38 INFO  Menu:43 -    DELETE TRAINER DETAILS   
+  2023-01-20 14:00:38 INFO  Menu:44 - ================================
+  2023-01-20 14:00:38 INFO  Menu:192 - Enter Id of trainer to delete: 
+  2023-01-20 14:00:48 INFO  Menu:202 - Deleted successfully
+  2023-01-20 14:00:48 INFO  Menu:210 - If you want to add more data press: 1 or 0 !
+  2023-01-20 14:00:56 INFO  Menu:214 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:01:03 INFO  Menu:17 - ================================
+  2023-01-20 14:01:03 INFO  Menu:18 -             MENU         
+  2023-01-20 14:01:03 INFO  Menu:19 - ================================
+  2023-01-20 14:01:03 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:01:03 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:01:03 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:01:03 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:01:03 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:01:03 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:01:05 INFO  Menu:36 - ================================
+  2023-01-20 14:01:05 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 14:01:05 INFO  Menu:38 - ================================
+  2023-01-20 14:01:05 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:01:10 INFO  Menu:17 - ================================
+  2023-01-20 14:01:10 INFO  Menu:18 -             MENU         
+  2023-01-20 14:01:10 INFO  Menu:19 - ================================
+  2023-01-20 14:01:10 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:01:10 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:01:10 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:01:10 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:01:10 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:01:10 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:01:22 INFO  Menu:48 - ================================
+  2023-01-20 14:01:22 INFO  Menu:49 -    UPDATE TRAINER DETAILS   
+  2023-01-20 14:01:22 INFO  Menu:50 - ================================
+  2023-01-20 14:01:22 INFO  Menu:238 - Enter Id of Trainer: 
+  2023-01-20 14:01:31 INFO  Menu:241 - Which field you want to update 
+Press 1: Update Name
+Press 2: Update Track
+Press 3: Update Qualification
+Press 4: Update Experience
+Press
+
+  2023-01-20 14:01:44 INFO  Menu:247 - Enter new name:
+  2023-01-20 14:01:49 INFO  Menu:254 - Updated
+  2023-01-20 14:01:49 INFO  Menu:319 - If you want to update more data press: 1 or 0 !
+  2023-01-20 14:01:56 INFO  Menu:324 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:01:58 INFO  Menu:17 - ================================
+  2023-01-20 14:01:58 INFO  Menu:18 -             MENU         
+  2023-01-20 14:01:58 INFO  Menu:19 - ================================
+  2023-01-20 14:01:58 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:01:58 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:01:58 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:01:58 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:01:58 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:01:58 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:02:00 INFO  Menu:36 - ================================
+  2023-01-20 14:02:00 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 14:02:00 INFO  Menu:38 - ================================
+  2023-01-20 14:02:00 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 14:02:07 INFO  Menu:17 - ================================
+  2023-01-20 14:02:07 INFO  Menu:18 -             MENU         
+  2023-01-20 14:02:07 INFO  Menu:19 - ================================
+  2023-01-20 14:02:07 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:02:07 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:02:07 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:02:07 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:02:07 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:02:07 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 14:02:10 INFO  Menu:29 - ================================
+  2023-01-20 14:02:10 INFO  Menu:30 -              Login
+  2023-01-20 14:02:10 INFO  Menu:31 - ================================
+  2023-01-20 14:02:10 INFO  Menu:36 - Enter Username: 
+  2023-01-20 14:02:20 INFO  Menu:38 - Enter Password: 
+  2023-01-20 14:02:24 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 14:02:24 INFO  Menu:17 - ================================
+  2023-01-20 14:02:24 INFO  Menu:18 -             MENU         
+  2023-01-20 14:02:24 INFO  Menu:19 - ================================
+  2023-01-20 14:02:24 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 14:02:24 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 14:02:24 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 14:02:24 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 14:02:24 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 14:02:24 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 16:02:21 INFO  Menu:29 - ================================
+  2023-01-20 16:02:21 INFO  Menu:30 -              Login
+  2023-01-20 16:02:21 INFO  Menu:31 - ================================
+  2023-01-20 16:02:21 INFO  Menu:36 - Enter Username: 
+  2023-01-20 16:02:55 INFO  Menu:38 - Enter Password: 
+  2023-01-20 16:02:58 INFO  Menu:74 - Invalid Credential's ❌ 😢
+
+================================
+Enter valid Credential's
+
+  2023-01-20 16:02:58 INFO  Menu:36 - Enter Username: 
+  2023-01-20 16:03:25 INFO  Menu:38 - Enter Password: 
+  2023-01-20 16:03:33 INFO  Menu:60 - =========== Your Details ===========
+  2023-01-20 16:03:33 INFO  Menu:62 - Welcome krunal
+  2023-01-20 16:03:33 INFO  Menu:69 - No provision for updation or insertion or deletion 😐
+  2023-01-20 16:03:33 INFO  Menu:72 - ================================
+Enter Admin's Credential's for making changes
+
+  2023-01-20 16:03:33 INFO  Menu:36 - Enter Username: 
+  2023-01-20 16:04:20 INFO  Menu:38 - Enter Password: 
+  2023-01-20 16:04:26 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 16:04:26 INFO  Menu:17 - ================================
+  2023-01-20 16:04:26 INFO  Menu:18 -             MENU         
+  2023-01-20 16:04:26 INFO  Menu:19 - ================================
+  2023-01-20 16:04:26 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 16:04:26 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 16:04:26 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 16:04:26 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 16:04:26 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 16:04:26 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 16:04:38 INFO  Menu:29 - ================================
+  2023-01-20 16:04:38 INFO  Menu:30 -              Login
+  2023-01-20 16:04:38 INFO  Menu:31 - ================================
+  2023-01-20 16:04:38 INFO  Menu:36 - Enter Username: 
+  2023-01-20 16:05:49 INFO  Menu:38 - Enter Password: 
+  2023-01-20 16:05:55 INFO  Menu:42 - Login successfull ✓ 😀
+  2023-01-20 16:05:55 INFO  Menu:17 - ================================
+  2023-01-20 16:05:55 INFO  Menu:18 -             MENU         
+  2023-01-20 16:05:55 INFO  Menu:19 - ================================
+  2023-01-20 16:05:55 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 16:05:55 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 16:05:55 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 16:05:55 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 16:05:55 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 16:05:55 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 16:06:02 INFO  Menu:58 - ================================
+  2023-01-20 16:06:02 INFO  Menu:59 - Register Trainer
+  2023-01-20 16:06:02 INFO  Menu:60 - ================================
+  2023-01-20 16:06:02 INFO  Menu:34 - Enter username: 
+  2023-01-20 16:06:27 INFO  Menu:36 - Enter Password: 
+  2023-01-20 16:06:28 INFO  Menu:38 - Enter Id of Trainer: 
+  2023-01-20 16:06:31 ERROR Menu:55 - Cannot add or update a child row: a foreign key constraint fails (`tfms_db_krunal`.`trainer_login`, CONSTRAINT `trainer_login_ibfk_1` FOREIGN KEY (`trainer_login_id`) REFERENCES `trainer` (`trainer_id`))
+  2023-01-20 16:06:31 INFO  Menu:58 - If you want to add more data press: 1 or 0 !
+  2023-01-20 16:07:05 INFO  Menu:34 - Enter username: 
+  2023-01-20 16:07:10 INFO  Menu:36 - Enter Password: 
+  2023-01-20 16:07:11 INFO  Menu:38 - Enter Id of Trainer: 
+  2023-01-20 16:07:14 ERROR Menu:55 - Cannot add or update a child row: a foreign key constraint fails (`tfms_db_krunal`.`trainer_login`, CONSTRAINT `trainer_login_ibfk_1` FOREIGN KEY (`trainer_login_id`) REFERENCES `trainer` (`trainer_id`))
+  2023-01-20 16:07:14 INFO  Menu:58 - If you want to add more data press: 1 or 0 !
+  2023-01-20 16:07:25 INFO  Menu:62 - Press 1: View Menu
+Press 2: Logout
+  2023-01-20 16:07:28 INFO  Menu:17 - ================================
+  2023-01-20 16:07:28 INFO  Menu:18 -             MENU         
+  2023-01-20 16:07:28 INFO  Menu:19 - ================================
+  2023-01-20 16:07:28 INFO  Menu:20 - Press 1: Add Trainer details
+  2023-01-20 16:07:28 INFO  Menu:21 - Press 2: Show Trainer details
+  2023-01-20 16:07:28 INFO  Menu:22 - Press 3: Delete Trainer details
+  2023-01-20 16:07:28 INFO  Menu:23 - Press 4: Update Trainer details
+  2023-01-20 16:07:28 INFO  Menu:24 - Press 5: Logout
+  2023-01-20 16:07:28 INFO  Menu:25 - Press 6: Register Trainer
+  2023-01-20 16:07:31 INFO  Menu:36 - ================================
+  2023-01-20 16:07:31 INFO  Menu:37 -          TRAINER DETAILS         
+  2023-01-20 16:07:31 INFO  Menu:38 - ================================
+  2023-01-20 16:07:31 INFO  Menu:170 - Press 1: View Menu
+Press 2: Logout
   

@@ -4,6 +4,17 @@ CREATE DATABASE tfms_db_krunal;
 USE tfms_db_krunal;
 
 -- creating tables
+
+CREATE TABLE trainer(
+	trainer_id VARCHAR(15),
+    trainer_name VARCHAR(55),
+    trainer_track ENUM('jiava', 'dotnet', 'mainframe', 'testing'),
+    trainer_qual VARCHAR(55),
+    trainer_exp VARCHAR(15),
+    trainer_username VARCHAR(15),
+    trainer_password VARCHAR(8)
+);
+
 drop table Associate;
 CREATE TABLE associate
 (    
